@@ -1,3 +1,4 @@
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = "MyFirstProgram"
+mainClassName = "ru.pakage1.MyFirstProgram"
+mainClassName = "ru.pakage1.Point"
