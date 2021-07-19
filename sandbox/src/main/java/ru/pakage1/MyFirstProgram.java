@@ -6,8 +6,8 @@ public class  MyFirstProgram {
 
 	public static void main(String[] args) {
 
-		Point p1 = new Point(4.0, 4.0); //Задаем координаты двух точек
-		Point p2 = new Point(2.0, 2.0);
+		Point p1 = new Point(0, 0); //Задаем координаты двух точек
+		Point p2 = new Point(0, 0);
 
 		System.out.println("3.Задание. Расстояние между точками А(" + p1.x + ";" + p1.y + ") и В(" + p2.x + ";" + p2.y + ") равно " + distance(p1, p2));
 
