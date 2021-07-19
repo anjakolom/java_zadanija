@@ -10,11 +10,11 @@ public class Point {
         this.y = y;
     }
 
-    private double distance(double x2, double y2){
-        return Math.sqrt(Math.pow((x2 - this.x), 2) + Math.pow((y2 - this.y), 2));
+    private double distance(Point p2){
+        return Math.sqrt(Math.pow((p2.x - this.x), 2) + Math.pow((p2.y - this.y), 2));
     }
     public void write(Point p2){
-        System.out.println("4.Задание. Расстояние между точками А(" + this.x + ";" + this.y + ") и В(" + p2.x + ";" + p2.y + ") равно " + distance(p2.x,p2.y));
+        System.out.println("4.Задание. Расстояние между точками А(" + this.x + ";" + this.y + ") и В(" + p2.x + ";" + p2.y + ") равно " + distance(p2));
     }
 }
 
