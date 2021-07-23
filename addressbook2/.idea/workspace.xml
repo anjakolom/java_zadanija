@@ -71,6 +71,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -126,18 +127,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testGroupCreation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.package1" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.testGroupCreation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MyFirstProgram" />
       <item itemvalue="TestNG.MyTest1" />
       <item itemvalue="TestNG.GroupCreationTests" />
+      <item itemvalue="TestNG.testGroupCreation" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GroupCreationTests" />
+        <item itemvalue="TestNG.testGroupCreation" />
         <item itemvalue="TestNG.MyTest1" />
         <item itemvalue="Gradle.MyTest1" />
         <item itemvalue="Gradle.MyTest1" />
-        <item itemvalue="Gradle.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -169,25 +188,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1627033305100" />
-    <state width="1286" height="160" key="GridCell.Tab.0.bottom" timestamp="1627033976149">
+    <state width="1286" height="2" key="GridCell.Tab.0.bottom" timestamp="1627040431792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627033976149" />
-    <state width="1286" height="160" key="GridCell.Tab.0.center" timestamp="1627033976149">
+    <state width="1286" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627040431792" />
+    <state width="1286" height="2" key="GridCell.Tab.0.center" timestamp="1627040431792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627033976149" />
-    <state width="1286" height="160" key="GridCell.Tab.0.left" timestamp="1627033976149">
+    <state width="1286" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627040431792" />
+    <state width="1286" height="2" key="GridCell.Tab.0.left" timestamp="1627040431792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627033976149" />
-    <state width="1286" height="160" key="GridCell.Tab.0.right" timestamp="1627033976149">
+    <state width="1286" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627040431792" />
+    <state width="1286" height="2" key="GridCell.Tab.0.right" timestamp="1627040431792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627033976149" />
-    <state x="256" y="0" key="SettingsEditor" timestamp="1627033322635">
+    <state width="1286" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627040431792" />
+    <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass" timestamp="1627041204265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="256" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1627033322635" />
+    <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass/0.0.1366.728@0.0.1366.728" timestamp="1627041204265" />
+    <state x="489" y="0" key="RefactorJ.IntroduceParameterObject" timestamp="1627041580911">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="489" y="0" key="RefactorJ.IntroduceParameterObject/0.0.1366.728@0.0.1366.728" timestamp="1627041580911" />
+    <state x="484" y="336" key="ReplaceDuplicatesPrompt" timestamp="1627039485694">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="336" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1627039485694" />
+    <state x="256" y="0" key="SettingsEditor" timestamp="1627038976252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="256" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1627038976252" />
+    <state x="439" y="104" key="extract.method.dialog" timestamp="1627040155264">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="439" y="104" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1627040155264" />
   </component>
 </project>
