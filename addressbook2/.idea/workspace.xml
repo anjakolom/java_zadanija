@@ -53,6 +53,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -79,20 +86,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.package1" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.NewContactTest">
-    <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.package1.MyFirstProgram" />
-      <module name="addressbook2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook2.test" />
       <extension name="coverage">
@@ -103,6 +102,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1" />
       <option name="MAIN_CLASS_NAME" value="ru.package1.GroupCreationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.package1" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.GroupDeletionTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -162,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyFirstProgram" />
       <item itemvalue="TestNG.MyTest1" />
       <item itemvalue="TestNG.GroupCreationTests" />
       <item itemvalue="TestNG.testGroupCreation" />
       <item itemvalue="TestNG.NewContactTest" />
+      <item itemvalue="TestNG.GroupDeletionTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.NewContactTest" />
         <item itemvalue="TestNG.GroupCreationTests" />
+        <item itemvalue="TestNG.GroupDeletionTests" />
         <item itemvalue="TestNG.testGroupCreation" />
         <item itemvalue="TestNG.MyTest1" />
-        <item itemvalue="Gradle.MyTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -206,22 +222,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1627033305100" />
-    <state width="1286" height="258" key="GridCell.Tab.0.bottom" timestamp="1627050814927">
+    <state x="404" y="77" width="579" height="568" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1627135050738">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="258" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627050814927" />
-    <state width="1286" height="258" key="GridCell.Tab.0.center" timestamp="1627050814925">
+    <state x="404" y="77" width="579" height="568" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1627135050738" />
+    <state width="1286" height="151" key="GridCell.Tab.0.bottom" timestamp="1627137579110">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="258" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627050814925" />
-    <state width="1286" height="258" key="GridCell.Tab.0.left" timestamp="1627050814924">
+    <state width="1286" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627137579110" />
+    <state width="1286" height="151" key="GridCell.Tab.0.center" timestamp="1627137579100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="258" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627050814924" />
-    <state width="1286" height="258" key="GridCell.Tab.0.right" timestamp="1627050814926">
+    <state width="1286" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627137579100" />
+    <state width="1286" height="151" key="GridCell.Tab.0.left" timestamp="1627137579100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="258" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627050814926" />
+    <state width="1286" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627137579100" />
+    <state width="1286" height="151" key="GridCell.Tab.0.right" timestamp="1627137579100">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627137579100" />
     <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass" timestamp="1627041204265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -238,10 +258,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="256" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1627038976252" />
-    <state x="621" y="169" key="extract.method.dialog" timestamp="1627051325545">
+    <state x="621" y="169" key="extract.method.dialog" timestamp="1627134874014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="621" y="169" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1627051325545" />
+    <state x="621" y="169" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1627134874014" />
     <state x="372" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1627046091513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

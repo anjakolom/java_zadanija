@@ -42,8 +42,9 @@ public class NewContactTest {
     }
 
     private void logout() {
-        driver.findElement(By.xpath("//div[@id='content']/form/input[21]")).click();
+        driver.findElement(By.xpath("//input[21]")).click();
         driver.findElement(By.linkText("Logout")).click();
+
     }
 
     private void fillContactForm(ContactData contactData) {
@@ -71,7 +72,8 @@ public class NewContactTest {
     }
 
     private void submitContactCreation() {
-        driver.findElement(By.xpath("//div[@id='content']/form/select[5]/option[9]")).click();
+        //driver.findElement(By.xpath("//div[@id='content']/form/select[5]/option[9]")).click();
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Secondary'])[1]/preceding::option[1]")).click();
     }
 
     private void initNewContact() {
