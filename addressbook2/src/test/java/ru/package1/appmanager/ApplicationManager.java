@@ -80,14 +80,7 @@ public class ApplicationManager {
         }
     }
 
-    public boolean isAlertPresent() {
-        try {
-            wd.switchTo().alert();
-            return true;
-        } catch (NoAlertPresentException e) {
-            return false;
-        }
-    }
+
 
     public GroupHelper getGroupHelper() {
         return groupHelper;
@@ -95,5 +88,14 @@ public class ApplicationManager {
 
     public NavigationHelper getNavigationHelper() {
         return navigationHelper;
+    }
+
+    public boolean isAlertPresent() {
+        try {
+            wd.switchTo().alert();
+            return true;
+        } catch (NoAlertPresentException e) {
+            return false;
+        }
     }
 }
