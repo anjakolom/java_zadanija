@@ -83,24 +83,26 @@ public class TestBase {
         wd.findElement(By.name("email")).clear();
         wd.findElement(By.name("email")).sendKeys(contactData.getEmail());
         new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+        wd.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Secondary'])[1]/preceding::option[1]")).click();
     }
 
     protected void submitContactCreation() {
-        wd.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Secondary'])[1]/preceding::option[1]")).click();
+         wd.findElement(By.xpath("//input[21]")).click();
     }
 
     protected void initNewContact() {
         wd.findElement(By.linkText("add new")).click();
+
     }
 
     protected void logout() {
-        wd.findElement(By.xpath("//input[21]")).click();
         wd.findElement(By.linkText("Logout")).click();
 
     }
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() throws Exception {
+      logout();
       wd.quit();
 
     }
