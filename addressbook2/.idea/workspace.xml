@@ -88,6 +88,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.package1.appmanager" />
       <recent name="ru.package1" />
     </key>
   </component>
@@ -222,26 +223,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1627033305100" />
-    <state x="404" y="77" width="579" height="568" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1627158198391">
+    <state x="404" y="77" width="579" height="568" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1627160920596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="404" y="77" width="579" height="568" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1627158198391" />
-    <state width="1286" height="151" key="GridCell.Tab.0.bottom" timestamp="1627159383282">
+    <state x="404" y="77" width="579" height="568" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1627160920596" />
+    <state x="126" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1627162211488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627159383282" />
-    <state width="1286" height="151" key="GridCell.Tab.0.center" timestamp="1627159383282">
+    <state x="126" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1627162211488" />
+    <state width="1286" height="151" key="GridCell.Tab.0.bottom" timestamp="1627162390470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627159383282" />
-    <state width="1286" height="151" key="GridCell.Tab.0.left" timestamp="1627159383282">
+    <state width="1286" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627162390470" />
+    <state width="1286" height="151" key="GridCell.Tab.0.center" timestamp="1627162390470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627159383282" />
-    <state width="1286" height="151" key="GridCell.Tab.0.right" timestamp="1627159383282">
+    <state width="1286" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627162390470" />
+    <state width="1286" height="151" key="GridCell.Tab.0.left" timestamp="1627162390470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627159383282" />
+    <state width="1286" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627162390470" />
+    <state width="1286" height="151" key="GridCell.Tab.0.right" timestamp="1627162390470">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627162390470" />
     <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass" timestamp="1627041204265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
