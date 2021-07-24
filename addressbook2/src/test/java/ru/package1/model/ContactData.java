@@ -1,4 +1,4 @@
-package ru.package1;
+package ru.package1.model;
 
 public class ContactData {
     private final String firstName;

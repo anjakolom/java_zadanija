@@ -1,6 +1,7 @@
-package ru.package1;
+package ru.package1.test;
 
 import org.testng.annotations.Test;
+import ru.package1.model.ContactData;
 
 public class NewContactTest extends TestBase {
 

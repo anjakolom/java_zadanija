@@ -1,7 +1,8 @@
-package ru.package1;
+package ru.package1.test;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import ru.package1.appmanager.ApplicationManager;
 
 public class TestBase {
 

@@ -1,8 +1,9 @@
-package ru.package1;
+package ru.package1.test;
 
 import org.testng.annotations.*;
+import ru.package1.model.GroupData;
 
-public class GroupCreationTests extends TestBase  {
+public class GroupCreationTests extends TestBase {
 
 
   @Test

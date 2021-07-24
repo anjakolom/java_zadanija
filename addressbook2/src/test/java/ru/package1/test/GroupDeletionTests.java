@@ -1,4 +1,4 @@
-package ru.package1;
+package ru.package1.test;
 
 import org.testng.annotations.*;
 
