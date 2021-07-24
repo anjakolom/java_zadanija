@@ -5,6 +5,7 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -58,6 +59,44 @@ public class TestBase {
 
     protected void gotoGroupPage() {
       wd.findElement(By.id("container")).click();
+    }
+
+    protected void fillContactForm(ContactData contactData) {
+        wd.findElement(By.name("firstname")).clear();
+        wd.findElement(By.name("firstname")).sendKeys(contactData.getFirstName());
+        wd.findElement(By.name("middlename")).clear();
+        wd.findElement(By.name("middlename")).sendKeys(contactData.getMiddleName());
+        wd.findElement(By.name("lastname")).clear();
+        wd.findElement(By.name("lastname")).sendKeys(contactData.getLastName());
+        wd.findElement(By.name("nickname")).clear();
+        wd.findElement(By.name("nickname")).sendKeys(contactData.getNickname());
+        wd.findElement(By.name("title")).clear();
+        wd.findElement(By.name("title")).sendKeys(contactData.getTitle());
+        wd.findElement(By.name("company")).clear();
+        wd.findElement(By.name("company")).sendKeys(contactData.getCompany());
+        wd.findElement(By.name("address")).clear();
+        wd.findElement(By.name("address")).sendKeys(contactData.getAddress());
+        wd.findElement(By.name("mobile")).clear();
+        wd.findElement(By.name("mobile")).sendKeys(contactData.getMobileTelephone());
+        wd.findElement(By.name("work")).clear();
+        wd.findElement(By.name("work")).sendKeys(contactData.getWork());
+        wd.findElement(By.name("email")).clear();
+        wd.findElement(By.name("email")).sendKeys(contactData.getEmail());
+        new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+    }
+
+    protected void submitContactCreation() {
+        wd.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Secondary'])[1]/preceding::option[1]")).click();
+    }
+
+    protected void initNewContact() {
+        wd.findElement(By.linkText("add new")).click();
+    }
+
+    protected void logout() {
+        wd.findElement(By.xpath("//input[21]")).click();
+        wd.findElement(By.linkText("Logout")).click();
+
     }
 
     @AfterMethod(alwaysRun = true)

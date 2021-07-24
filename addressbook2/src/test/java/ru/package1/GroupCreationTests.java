@@ -1,8 +1,6 @@
 package ru.package1;
 
-
 import org.testng.annotations.*;
-
 
 public class GroupCreationTests extends TestBase  {
 
