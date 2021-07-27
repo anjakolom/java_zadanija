@@ -44,7 +44,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="addressbook2" type="f1a62948:ProjectNode" />
+                <item name="addressbook3" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -92,7 +92,24 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactDeletionTests">
+  <component name="RunManager" selected="TestNG.ContactDeletionTests (1)">
+    <configuration name="ContactDeletionTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.package1.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.ContactDeletionTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook2.test" />
       <extension name="coverage">
@@ -120,23 +137,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1.test" />
       <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupDeletionTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -181,17 +181,17 @@
     <list>
       <item itemvalue="TestNG.ContactDeletionTests" />
       <item itemvalue="TestNG.GroupCreationTests" />
-      <item itemvalue="TestNG.GroupDeletionTests" />
       <item itemvalue="TestNG.GroupModificationTests" />
       <item itemvalue="TestNG.NewContactTest" />
+      <item itemvalue="TestNG.ContactDeletionTests (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactDeletionTests (1)" />
         <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="TestNG.GroupCreationTests" />
         <item itemvalue="TestNG.NewContactTest" />
         <item itemvalue="TestNG.GroupModificationTests" />
-        <item itemvalue="TestNG.GroupDeletionTests" />
       </list>
     </recent_temporary>
   </component>
