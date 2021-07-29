@@ -7,7 +7,7 @@ import ru.package1.appmanager.ApplicationManager;
 
 public class TestBase {
     //Драйвер браузера: BrowserType.FIREFOX,BrowserType.IE,BrowserType.CHROME
-    protected final ApplicationManager app = new ApplicationManager(BrowserType.IE);
+    protected final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
 
     @BeforeMethod(alwaysRun = true)
     public void setUp() throws Exception {
