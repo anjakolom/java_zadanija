@@ -2,6 +2,7 @@ package ru.package1.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import ru.package1.model.ContactData;
 
 public class ContactHelper extends HelperBase {
@@ -10,7 +11,7 @@ public class ContactHelper extends HelperBase {
         super(wd);
     }
 
-    public void fillContactForm(ContactData contactData) {
+    public void fillContactForm(ContactData contactData, boolean creation) {
         type(By.name("firstname"), contactData.getFirstName());
         type(By.name("middlename"), contactData.getMiddleName());
         type(By.name("lastname"), contactData.getLastName());
@@ -21,7 +22,13 @@ public class ContactHelper extends HelperBase {
         type(By.name("mobile"), contactData.getMobileTelephone());
         type(By.name("work"), contactData.getWork());
         type(By.name("email"), contactData.getEmail());
-        select(By.name("new_group"), contactData.getGroup());
+
+        if (creation){
+            select(By.name("new_group"), contactData.getGroup());
+        } else {
+            Assert.assertFalse(isElementPresent(By.name("new_group")));
+        }
+
         click(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Secondary'])[1]/preceding::option[1]"));
 
     }
@@ -41,19 +48,6 @@ public class ContactHelper extends HelperBase {
 
     public void submitContactModification() {
         click(By.xpath("//div[@id='content']/form/input[22]"));
-    }
-
-    public void modificationContactForm(ContactData contactData) {
-        type(By.name("firstname"), contactData.getFirstName());
-        type(By.name("middlename"), contactData.getMiddleName());
-        type(By.name("lastname"), contactData.getLastName());
-        type(By.name("nickname"), contactData.getNickname());
-        type(By.name("title"), contactData.getTitle());
-        type(By.name("company"), contactData.getCompany());
-        type(By.name("address"), contactData.getAddress());
-        type(By.name("mobile"), contactData.getMobileTelephone());
-        type(By.name("work"), contactData.getWork());
-        type(By.name("email"), contactData.getEmail());
     }
 
     public void deleteContact() {
