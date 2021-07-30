@@ -23,7 +23,7 @@ public class ContactHelper extends HelperBase {
         type(By.name("work"), contactData.getWork());
         type(By.name("email"), contactData.getEmail());
 
-        if (creation){
+        if (creation) {
             select(By.name("new_group"), contactData.getGroup());
         } else {
             Assert.assertFalse(isElementPresent(By.name("new_group")));
@@ -38,6 +38,10 @@ public class ContactHelper extends HelperBase {
     }
 
     public void initNewContact() {
+        if (isElementPresent(By.name("submit"))
+                && wd.findElement(By.tagName("h1")).getText().equals("Edit / add address book entry")) {
+            return;
+        }
         click(By.linkText("add new"));
 
     }
