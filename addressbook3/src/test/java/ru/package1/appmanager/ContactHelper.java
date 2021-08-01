@@ -69,4 +69,15 @@ public class ContactHelper extends HelperBase {
     public void deleteContactButton() {
         click(By.xpath("//div[@id='content']/form[2]/div[2]/input"));
     }
+
+    public boolean isThereAContact() {
+        return isElementPresent(By.xpath("//img[@alt='Edit']"));
+    }
+
+    public void createContact(ContactData contact, boolean creation) {
+        initNewContact();
+        fillContactForm(contact, creation);
+        submitContactCreation();
+
+    }
 }
