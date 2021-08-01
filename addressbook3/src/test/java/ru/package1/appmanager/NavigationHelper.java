@@ -15,7 +15,8 @@ public class NavigationHelper extends HelperBase {
                 && isElementPresent(By.name("New"))){
             return;
         }
-        click(By.id("container"));
+        //click(By.id("container"));
+        click(By.linkText("groups"));
     }
 
     public void gotoContactPage() {
