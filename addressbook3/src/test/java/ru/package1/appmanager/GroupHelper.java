@@ -4,15 +4,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import ru.package1.model.GroupData;
 
-public class GroupHelper extends HelperBase{
+public class GroupHelper extends HelperBase {
 
     public GroupHelper(WebDriver wd) {
         super(wd);
     }
 
-    public void returnToGroupPage() {
-        click(By.linkText("groups"));
-        click(By.linkText("Logout"));
+    public void login() {
+        if (isElementPresent(By.name("Logout"))) {
+            click(By.linkText("Logout"));
+        }
     }
 
     public void submitGroupCreation() {

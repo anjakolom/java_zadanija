@@ -92,7 +92,7 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NewContactTest">
+  <component name="RunManager" selected="TestNG.GroupModificationTests">
     <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
@@ -110,24 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.ContactModificationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupCreationTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
         <pattern>
@@ -137,6 +120,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1.test" />
       <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.package1.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupDeletionTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -179,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.GroupCreationTests (1)" />
-      <item itemvalue="TestNG.GroupModificationTests" />
-      <item itemvalue="TestNG.ContactModificationTests" />
       <item itemvalue="TestNG.NewContactTest" />
       <item itemvalue="TestNG.ContactDeletionTests" />
+      <item itemvalue="TestNG.GroupDeletionTests" />
+      <item itemvalue="TestNG.GroupCreationTests" />
+      <item itemvalue="TestNG.GroupModificationTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NewContactTest" />
-        <item itemvalue="TestNG.ContactDeletionTests" />
-        <item itemvalue="TestNG.ContactModificationTests" />
         <item itemvalue="TestNG.GroupModificationTests" />
-        <item itemvalue="TestNG.GroupCreationTests (1)" />
+        <item itemvalue="TestNG.GroupCreationTests" />
+        <item itemvalue="TestNG.GroupDeletionTests" />
+        <item itemvalue="TestNG.ContactDeletionTests" />
+        <item itemvalue="TestNG.NewContactTest" />
       </list>
     </recent_temporary>
   </component>
@@ -231,38 +231,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="126" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1627162211488" />
-    <state width="1286" height="151" key="GridCell.Tab.0.bottom" timestamp="1627655285264">
+    <state width="1286" height="186" key="GridCell.Tab.0.bottom" timestamp="1627795505136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627655285264" />
-    <state width="1286" height="151" key="GridCell.Tab.0.center" timestamp="1627655285264">
+    <state width="1286" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627795505136" />
+    <state width="1286" height="186" key="GridCell.Tab.0.center" timestamp="1627795505136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627655285264" />
-    <state width="1286" height="151" key="GridCell.Tab.0.left" timestamp="1627655285264">
+    <state width="1286" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627795505136" />
+    <state width="1286" height="186" key="GridCell.Tab.0.left" timestamp="1627795505135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627655285264" />
-    <state width="1286" height="151" key="GridCell.Tab.0.right" timestamp="1627655285264">
+    <state width="1286" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627795505135" />
+    <state width="1286" height="186" key="GridCell.Tab.0.right" timestamp="1627795505136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627655285264" />
-    <state width="1286" height="186" key="GridCell.Tab.1.bottom" timestamp="1627547235335">
+    <state width="1286" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627795505136" />
+    <state width="1286" height="186" key="GridCell.Tab.1.bottom" timestamp="1627795400764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="186" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627547235335" />
-    <state width="1286" height="186" key="GridCell.Tab.1.center" timestamp="1627547235335">
+    <state width="1286" height="186" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627795400764" />
+    <state width="1286" height="186" key="GridCell.Tab.1.center" timestamp="1627795400763">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="186" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627547235335" />
-    <state width="1286" height="186" key="GridCell.Tab.1.left" timestamp="1627547235335">
+    <state width="1286" height="186" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627795400763" />
+    <state width="1286" height="186" key="GridCell.Tab.1.left" timestamp="1627795400761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="186" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627547235335" />
-    <state width="1286" height="186" key="GridCell.Tab.1.right" timestamp="1627547235335">
+    <state width="1286" height="186" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627795400761" />
+    <state width="1286" height="186" key="GridCell.Tab.1.right" timestamp="1627795400763">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="186" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627547235335" />
+    <state width="1286" height="186" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627795400763" />
     <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass" timestamp="1627041204265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
