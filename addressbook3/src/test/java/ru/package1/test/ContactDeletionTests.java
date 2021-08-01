@@ -18,6 +18,6 @@ public class ContactDeletionTests extends TestBase {
         app.getContactHelper().selectContactFlag();
         app.getContactHelper().deleteContactButton();
         app.getContactHelper().closeAlert();
-
+        app.logout();
     }
 }

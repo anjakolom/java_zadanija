@@ -10,12 +10,6 @@ public class GroupHelper extends HelperBase {
         super(wd);
     }
 
-    public void login() {
-        if (isElementPresent(By.name("Logout"))) {
-            click(By.linkText("Logout"));
-        }
-    }
-
     public void submitGroupCreation() {
         click(By.name("submit"));
     }

@@ -29,7 +29,7 @@ public class ApplicationManager {
             wd = new FirefoxDriver();
         } else if (browser.equals(BrowserType.CHROME)) {
             wd = new ChromeDriver();
-        } else if (browser.equals(BrowserType.IE)){
+        } else if (browser.equals(BrowserType.IE)) {
             wd = new InternetExplorerDriver();
         }
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -42,8 +42,11 @@ public class ApplicationManager {
     }
 
     public void logout() {
-        wd.findElement(By.linkText("Logout")).click();
+        //    wd.findElement(By.linkText("Logout")).click();
 
+        if (isElementPresent(By.name("Logout"))) {
+            wd.findElement(By.linkText("Logout")).click();
+        }
     }
 
     public void stop() {

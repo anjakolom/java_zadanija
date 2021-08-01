@@ -10,6 +10,7 @@ public class NewContactTest extends TestBase {
         app.getContactHelper().initNewContact();
         app.getContactHelper().fillContactForm(new ContactData("FirstName", "MiddleName", "LastName", "Nickname", "Title", "Company", "Address", "+79260211966", "Work", "email", "10", "november", "1982", "New_groups_1"), true);
         app.getContactHelper().submitContactCreation();
+        app.logout();
 
     }
 
