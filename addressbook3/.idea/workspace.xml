@@ -92,7 +92,7 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactDeletionTests">
+  <component name="RunManager" selected="TestNG.ContactModificationTests">
     <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
@@ -187,8 +187,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="TestNG.ContactModificationTests" />
+        <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="TestNG.NewContactTest" />
         <item itemvalue="TestNG.GroupDeletionTests" />
         <item itemvalue="TestNG.GroupModificationTests" />

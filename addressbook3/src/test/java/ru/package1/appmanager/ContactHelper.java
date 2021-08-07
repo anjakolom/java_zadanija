@@ -62,8 +62,9 @@ public class ContactHelper extends HelperBase {
         wd.switchTo().alert().accept();
     }
 
-    public void selectContactFlag() {
-        click(By.name("selected[]"));
+    public void selectContactFlag(int index) {
+        wd.findElements(By.name("selected[]")).get(index).click();
+        //click(By.name("selected[]"));
     }
 
     public void deleteContactButton() {

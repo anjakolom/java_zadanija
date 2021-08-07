@@ -38,7 +38,7 @@ public class ContactDeletionTests extends TestBase {
             app.getNavigationHelper().gotoContactPage();
         }
         int before = app.getContactHelper().getContactCont();
-        app.getContactHelper().selectContactFlag();
+        app.getContactHelper().selectContactFlag(before-1);
         app.getContactHelper().deleteContactButton();
         app.getContactHelper().closeAlert();
         app.getNavigationHelper().gotoContactPage();
