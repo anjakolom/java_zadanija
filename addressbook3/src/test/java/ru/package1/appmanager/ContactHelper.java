@@ -80,4 +80,9 @@ public class ContactHelper extends HelperBase {
         submitContactCreation();
 
     }
+
+    public int getContactCont() {
+        return wd.findElements(By.name("selected[]")).size();
+
+    }
 }
