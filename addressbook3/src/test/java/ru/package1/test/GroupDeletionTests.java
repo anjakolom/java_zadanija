@@ -4,6 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import ru.package1.model.GroupData;
 
+import java.util.List;
+
 public class GroupDeletionTests extends TestBase {
 
     @Test
@@ -13,12 +15,12 @@ public class GroupDeletionTests extends TestBase {
             app.getGroupHelper().createGroup(new GroupData("New_groups_1", "1111", null));
             app.getNavigationHelper().gotoGroupPage();
         }
-        int before = app.getGroupHelper().getGroupCont();
-        app.getGroupHelper().selectGroup(before-1);
+        List<GroupData> before = app.getGroupHelper().getGroupList();
+        app.getGroupHelper().selectGroup(before.size()-1);
         app.getGroupHelper().deleteSelectedGroups();
         app.getNavigationHelper().gotoGroupPage();
-        int after = app.getGroupHelper().getGroupCont();
-        Assert.assertEquals(after,before-1);
+        List<GroupData> after = app.getGroupHelper().getGroupList();
+        Assert.assertEquals(after.size(),before.size()-1);
         app.logout();
     }
 
