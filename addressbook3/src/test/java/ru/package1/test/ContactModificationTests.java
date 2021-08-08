@@ -17,12 +17,12 @@ public class ContactModificationTests extends TestBase{
             app.getContactHelper().createContact(new ContactData("FirstName", "MiddleName", "LastName", "Nickname", "Title", "Company", "Address", "+79260211966", "Work", "email", "10", "november", "1982", "New_groups_1"), true);
             app.getNavigationHelper().gotoContactPage();
         }
-        int before = app.getContactHelper().getContactCont();
+        int before = app.getContactHelper().getContactCount();
         app.getContactHelper().selectContact();
         app.getContactHelper().fillContactForm(new ContactData("FirstName_3", "MiddleName_3", "LastName", "Nickname", "Title", "Company", "Address", "+79260211966", "Work_3", "email", "10", "november", "1982", null),false);
         app.getContactHelper().submitContactModification();
         app.getNavigationHelper().gotoContactPage();
-        int after = app.getContactHelper().getContactCont();
+        int after = app.getContactHelper().getContactCount();
         Assert.assertEquals(after,before);
         app.logout();
     }

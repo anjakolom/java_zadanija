@@ -5,6 +5,8 @@ import org.testng.annotations.Test;
 import ru.package1.model.ContactData;
 import ru.package1.model.GroupData;
 
+import java.util.List;
+
 public class ContactDeletionTests extends TestBase {
     @Test
     //Удаление из редактирования контакта
@@ -17,13 +19,13 @@ public class ContactDeletionTests extends TestBase {
             app.getContactHelper().createContact(new ContactData("FirstName", "MiddleName", "LastName", "Nickname", "Title", "Company", "Address", "+79260211966", "Work", "email", "10", "november", "1982", "New_groups_1"), true);
             app.getNavigationHelper().gotoContactPage();
         }
-            int before = app.getContactHelper().getContactCont();
-            app.getContactHelper().selectContact();
-            app.getContactHelper().deleteContact();
-            app.getNavigationHelper().gotoContactPage();
-            int after = app.getContactHelper().getContactCont();
-            System.out.println("before "+before+"; after "+after);
-            Assert.assertEquals(after,before-1);
+        int before = app.getContactHelper().getContactCount();
+        app.getContactHelper().selectContact();
+        app.getContactHelper().deleteContact();
+        app.getNavigationHelper().gotoContactPage();
+        int after = app.getContactHelper().getContactCount();
+        System.out.println("before " + before + "; after " + after);
+        Assert.assertEquals(after, before - 1);
     }
 
     @Test
@@ -37,13 +39,20 @@ public class ContactDeletionTests extends TestBase {
             app.getContactHelper().createContact(new ContactData("FirstName", "MiddleName", "LastName", "Nickname", "Title", "Company", "Address", "+79260211966", "Work", "email", "10", "november", "1982", "New_groups_1"), true);
             app.getNavigationHelper().gotoContactPage();
         }
-        int before = app.getContactHelper().getContactCont();
-        app.getContactHelper().selectContactFlag(before-1);
+        List<ContactData> before = app.getContactHelper().getContactList();
+        app.getContactHelper().selectContactFlag(before.size() - 1);
         app.getContactHelper().deleteContactButton();
         app.getContactHelper().closeAlert();
         app.getNavigationHelper().gotoContactPage();
-        int after = app.getContactHelper().getContactCont();
-        Assert.assertEquals(after,before-1);
+        List<ContactData> after = app.getContactHelper().getContactList();
+        Assert.assertEquals(after.size(), before.size() - 1);
+
+        before.remove(before.size() - 1);
+        System.out.println("Сравнение списков контактов:");
+        for (int i = 0; i < after.size(); i++) {
+            System.out.println(before.get(i) + "; " + after.get(i));
+        }
+        Assert.assertEquals(before, after);
         app.logout();
     }
 }

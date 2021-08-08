@@ -2,8 +2,12 @@ package ru.package1.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import ru.package1.model.ContactData;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContactHelper extends HelperBase {
 
@@ -28,7 +32,6 @@ public class ContactHelper extends HelperBase {
         } else {
             Assert.assertFalse(isElementPresent(By.name("new_group")));
         }
-
         click(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Secondary'])[1]/preceding::option[1]"));
 
     }
@@ -64,7 +67,6 @@ public class ContactHelper extends HelperBase {
 
     public void selectContactFlag(int index) {
         wd.findElements(By.name("selected[]")).get(index).click();
-        //click(By.name("selected[]"));
     }
 
     public void deleteContactButton() {
@@ -82,8 +84,22 @@ public class ContactHelper extends HelperBase {
 
     }
 
-    public int getContactCont() {
+    public int getContactCount() {
         return wd.findElements(By.name("selected[]")).size();
 
+    }
+
+    public List<ContactData> getContactList() {
+        List<ContactData> contacts = new ArrayList<ContactData>();
+        List<WebElement> elements = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));//By.cssSelector("#maintable input[type='checkbox']"));
+        System.out.println("Получили список контактов: ");
+        for (WebElement element : elements) {
+            String lastName = element.getText();
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            ContactData contact = new ContactData(id, lastName, null, null, null, null, null, null, null, null, null, null, null, null, null);
+            contacts.add(contact);
+            System.out.println(id + "; " + lastName + "; ");
+        }
+        return contacts;
     }
 }
