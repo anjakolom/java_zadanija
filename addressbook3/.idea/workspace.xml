@@ -81,7 +81,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.31944445" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
@@ -243,22 +243,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1628347748399" />
-    <state width="1286" height="154" key="GridCell.Tab.0.bottom" timestamp="1628371147053">
+    <state width="1286" height="154" key="GridCell.Tab.0.bottom" timestamp="1628404377244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628371147053" />
-    <state width="1286" height="154" key="GridCell.Tab.0.center" timestamp="1628371147053">
+    <state width="1286" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628404377244" />
+    <state width="1286" height="154" key="GridCell.Tab.0.center" timestamp="1628404377244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628371147053" />
-    <state width="1286" height="154" key="GridCell.Tab.0.left" timestamp="1628371147053">
+    <state width="1286" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628404377244" />
+    <state width="1286" height="154" key="GridCell.Tab.0.left" timestamp="1628404377244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628371147053" />
-    <state width="1286" height="154" key="GridCell.Tab.0.right" timestamp="1628371147053">
+    <state width="1286" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628404377244" />
+    <state width="1286" height="154" key="GridCell.Tab.0.right" timestamp="1628404377244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628371147053" />
+    <state width="1286" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628404377244" />
     <state width="1286" height="186" key="GridCell.Tab.1.bottom" timestamp="1628367699689">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -287,10 +287,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="524" y="411" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1627163248337" />
-    <state x="256" y="0" key="SettingsEditor" timestamp="1628370639999">
+    <state x="256" y="0" key="SettingsEditor" timestamp="1628402926560">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="256" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1628370639999" />
+    <state x="256" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1628402926560" />
     <state x="567" y="248" key="extract.method.dialog" timestamp="1627215890618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
