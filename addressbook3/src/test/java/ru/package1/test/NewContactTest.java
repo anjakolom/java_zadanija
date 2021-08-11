@@ -1,8 +1,12 @@
 package ru.package1.test;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import ru.package1.model.ContactData;
 import ru.package1.model.GroupData;
+
+import java.util.Comparator;
+import java.util.List;
 
 public class NewContactTest extends TestBase {
 
@@ -10,9 +14,18 @@ public class NewContactTest extends TestBase {
     public void testNewContact() throws Exception {
         app.getNavigationHelper().gotoGroupPage();
         app.getGroupHelper().createGroup(new GroupData("New_groups_1", "1111", null));
-        app.getNavigationHelper().gotoGroupPage();
-        app.getContactHelper().createContact(new ContactData("FirstName", "MiddleName", "LastName", "Nickname", "Title", "Company", "Address", "+79260211966", "Work", "email", "10", "november", "1982", "New_groups_1"), true);
         app.getNavigationHelper().gotoContactPage();
+        List<ContactData> before = app.getContactHelper().getContactList();
+        ContactData contact = new ContactData("FirstName_n", "MiddleName_n", "LastName_n", "Nickname", "Title", "Company", "Address_new", "+7926021_new", "Work", "email_new", "10", "november", "1982", "New_groups_1");
+        app.getContactHelper().createContact(contact, true);
+        app.getNavigationHelper().gotoContactPage();
+        List<ContactData> after = app.getContactHelper().getContactList();
+
+        before.add(contact);
+        Comparator<? super ContactData> byId = (g1, g2) -> Integer.compare(g1.getId(), g2.getId());
+        before.sort(byId);
+        after.sort(byId);
+        Assert.assertEquals(before, after);
         app.logout();
 
     }

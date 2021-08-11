@@ -94,15 +94,15 @@ public class ContactHelper extends HelperBase {
         List<ContactData> contacts = new ArrayList<ContactData>();
         List<WebElement> elements = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));//By.cssSelector("#maintable input[type='checkbox']"));
 
-        System.out.println("Получили список контактов: ");
+        System.out.println("Получили список контактов из таблицы: ");
         for (WebElement element : elements) {
             String lastName = element.getText();
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
             List<WebElement> cells = element.findElements(By.tagName("td"));
-            ContactData contact = new ContactData(id, cells.get(2).getText().trim(), null, cells.get(1).getText().trim(), null, null, null, cells.get(3).getText().trim(), cells.get(5).getText(), null , cells.get(4).getText(),null , null, null,null);
+            ContactData contact = new ContactData(id, cells.get(2).getText().trim(), null, cells.get(1).getText().trim(), null, null, null, cells.get(3).getText().trim(), cells.get(5).getText(), null, cells.get(4).getText(), null, null, null, null);
             contacts.add(contact);
-            System.out.println("ячейки: "+id + "; " + cells.get(1).getText() + "; "+ cells.get(2).getText()+ "; "+ cells.get(3).getText()+"; "+ cells.get(4).getText()+"; "+ cells.get(5).getText());
-            //System.out.println(id + "; " + lastName + "; ");
+            System.out.println(id + "; " + cells.get(1).getText() + "; " + cells.get(2).getText() + "; " + cells.get(3).getText() + "; " + cells.get(4).getText() + "; " + cells.get(5).getText());
+
         }
         return contacts;
     }
