@@ -29,9 +29,7 @@ public class ContactModificationTests extends TestBase{
         int index = before.size()-1;
         app.getContactHelper().selectContact(index);
         ContactData contact = new ContactData(before.get(index).getId(),"FirstName_m", null, "LastName_m",null, null, null, null, null, null, null, null, null, null, null);
-        app.getContactHelper().fillContactForm(contact,false);
-        app.getContactHelper().submitContactModification();
-        app.getNavigationHelper().gotoContactPage();
+        app.getContactHelper().modifyContact(contact);
         List<ContactData> after = app.getContactHelper().getContactList();
         Assert.assertEquals(after.size(),before.size());
         
@@ -44,4 +42,6 @@ public class ContactModificationTests extends TestBase{
 
         app.logout();
     }
+
+
 }

@@ -18,15 +18,15 @@ public class GroupDeletionTests extends TestBase {
     }
     @Test
     public void testGroupDeletion() throws Exception {
-        //app.getNavigationHelper().gotoGroupPage();
         List<GroupData> before = app.getGroupHelper().getGroupList();
-        app.getGroupHelper().selectGroup(before.size()-1);
+        int index = before.size()-1;
+        app.getGroupHelper().selectGroup(index);
         app.getGroupHelper().deleteSelectedGroups();
         app.getNavigationHelper().gotoGroupPage();
         List<GroupData> after = app.getGroupHelper().getGroupList();
         Assert.assertEquals(after.size(),before.size()-1);
 
-        before.remove(before.size()-1);
+        before.remove(index);
         System.out.println("Сравнение списков групп:");
         for (int i = 0; i < after.size(); i++){
             System.out.println(before.get(i)+"; "+after.get(i));

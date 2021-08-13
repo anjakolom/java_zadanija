@@ -34,12 +34,11 @@ public class ApplicationManager {
         }
         wd.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         wd.get("http://localhost/addressbook");
-        //groupHelper = new GroupHelper(wd);
         groupHelper = new GroupHelper(this);
         navigationHelper = new NavigationHelper(wd);
         sessionHelper = new SessionHelper(wd);
         sessionHelper.login("admin", "secret");
-        contactHelper = new ContactHelper(wd);
+        contactHelper = new ContactHelper(this);
     }
 
     public void logout() {

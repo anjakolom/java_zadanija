@@ -9,9 +9,7 @@ import java.util.List;
 
 public class GroupHelper extends HelperBase {
     public  ApplicationManager appl;  //т.к. в ApplicationManager: groupHelper = new GroupHelper(this);
-    //public GroupHelper(WebDriver wd) {
-    //    super(wd);
-    //}
+
     public GroupHelper(ApplicationManager app) {
         super(app.wd);
         this.appl = app;

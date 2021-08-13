@@ -11,8 +11,15 @@ import java.util.List;
 
 public class ContactHelper extends HelperBase {
 
-    public ContactHelper(WebDriver wd) {
-        super(wd);
+    //public ContactHelper(WebDriver wd) {
+      //  super(wd);
+    //}
+    public  ApplicationManager appl;  //т.к. в ApplicationManager: groupHelper = new GroupHelper(this);
+
+    public ContactHelper(ApplicationManager app) {
+        super(app.wd);
+        this.appl = app;
+
     }
 
     public void fillContactForm(ContactData contactData, boolean creation) {
@@ -50,7 +57,6 @@ public class ContactHelper extends HelperBase {
     }
 
     public void selectContact(int index) {
-        //click(By.xpath("//img[@alt='Edit']"));
         wd.findElements(By.xpath("//img[@alt='Edit']")).get(index).click();
     }
 
@@ -83,6 +89,12 @@ public class ContactHelper extends HelperBase {
         fillContactForm(contact, creation);
         submitContactCreation();
 
+    }
+
+    public void modifyContact(ContactData contact) {
+        fillContactForm(contact,false);
+        submitContactModification();
+        appl.getNavigationHelper().gotoContactPage();
     }
 
     public int getContactCount() {
