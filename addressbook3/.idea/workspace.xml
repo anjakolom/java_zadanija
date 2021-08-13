@@ -92,7 +92,7 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ru.package1.test">
+  <component name="RunManager" selected="TestNG.GroupModificationTests">
     <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
@@ -127,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +136,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupModificationTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -179,18 +179,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.ContactDeletionTests" />
-      <item itemvalue="TestNG.GroupCreationTests" />
       <item itemvalue="TestNG.NewContactTest" />
       <item itemvalue="TestNG.ContactModificationTests" />
       <item itemvalue="TestNG.ru.package1.test" />
+      <item itemvalue="TestNG.GroupModificationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupModificationTests" />
         <item itemvalue="TestNG.ru.package1.test" />
         <item itemvalue="TestNG.ContactModificationTests" />
         <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="TestNG.NewContactTest" />
-        <item itemvalue="TestNG.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -242,22 +242,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1628347748399" />
-    <state width="1322" height="211" key="GridCell.Tab.0.bottom" timestamp="1628690223425">
+    <state width="1322" height="211" key="GridCell.Tab.0.bottom" timestamp="1628863496605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628690223425" />
-    <state width="1322" height="211" key="GridCell.Tab.0.center" timestamp="1628690223425">
+    <state width="1322" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628863496605" />
+    <state width="1322" height="211" key="GridCell.Tab.0.center" timestamp="1628863496605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628690223425" />
-    <state width="1322" height="211" key="GridCell.Tab.0.left" timestamp="1628690223425">
+    <state width="1322" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628863496605" />
+    <state width="1322" height="211" key="GridCell.Tab.0.left" timestamp="1628863496605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628690223425" />
-    <state width="1322" height="211" key="GridCell.Tab.0.right" timestamp="1628690223425">
+    <state width="1322" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628863496605" />
+    <state width="1322" height="211" key="GridCell.Tab.0.right" timestamp="1628863496605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628690223425" />
+    <state width="1322" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628863496605" />
     <state width="1322" height="38" key="GridCell.Tab.1.bottom" timestamp="1628690033489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -294,10 +294,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="673" height="344" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1628454849708" />
-    <state x="567" y="248" key="extract.method.dialog" timestamp="1627215890618">
+    <state x="540" y="151" key="extract.method.dialog" timestamp="1628860483443">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="567" y="248" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1627215890618" />
+    <state x="540" y="151" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1628860483443" />
     <state x="468" y="100" key="refactoring.ChangeSignatureDialog" timestamp="1628367207263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

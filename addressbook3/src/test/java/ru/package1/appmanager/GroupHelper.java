@@ -1,7 +1,6 @@
 package ru.package1.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import ru.package1.model.GroupData;
 
@@ -9,9 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GroupHelper extends HelperBase {
+    public  ApplicationManager appl;  //т.к. в ApplicationManager: groupHelper = new GroupHelper(this);
+    //public GroupHelper(WebDriver wd) {
+    //    super(wd);
+    //}
+    public GroupHelper(ApplicationManager app) {
+        super(app.wd);
+        this.appl = app;
 
-    public GroupHelper(WebDriver wd) {
-        super(wd);
     }
 
     public void submitGroupCreation() {
@@ -50,6 +54,14 @@ public class GroupHelper extends HelperBase {
         submitGroupCreation();
     }
 
+    public void modifyGroup(int index, GroupData group) {
+        selectGroup(index);
+        initGroupModification();
+        fillGroupForm(group);
+        submitGroupModification();
+        appl.getNavigationHelper().gotoGroupPage();
+
+    }
     public boolean isThereAGroup() {
         return isElementPresent(By.name("selected[]"));
     }
