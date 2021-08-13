@@ -1,6 +1,7 @@
 package ru.package1.test;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.package1.model.GroupData;
 
@@ -10,15 +11,18 @@ import java.util.List;
 
 public class GroupModificationTests extends TestBase {
 
-    @Test
-    public void testGroupModification(){
-
+    @BeforeMethod
+    public void ensurePreconditions(){
         app.getNavigationHelper().gotoGroupPage();
-        List<GroupData> before = app.getGroupHelper().getGroupList();
         if (!app.getGroupHelper().isThereAGroup()){
             app.getGroupHelper().createGroup(new GroupData("New_groups_1", "1111", null));
             app.getNavigationHelper().gotoGroupPage();
         }
+    }
+    @Test
+    public void testGroupModification(){
+
+        List<GroupData> before = app.getGroupHelper().getGroupList();
         int index = before.size()-1;
         GroupData group = new GroupData(before.get(index).getId(),"New_groups_2", "222", "222");
         app.getGroupHelper().modifyGroup(index, group);
