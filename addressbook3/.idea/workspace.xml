@@ -92,7 +92,7 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactModificationTests">
+  <component name="RunManager" selected="TestNG.ru.package1.test">
     <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
@@ -144,23 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupModificationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NewContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
@@ -178,20 +161,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.package1.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.package1.test" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.ContactDeletionTests" />
       <item itemvalue="TestNG.GroupCreationTests" />
-      <item itemvalue="TestNG.GroupModificationTests" />
       <item itemvalue="TestNG.NewContactTest" />
       <item itemvalue="TestNG.ContactModificationTests" />
+      <item itemvalue="TestNG.ru.package1.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ru.package1.test" />
         <item itemvalue="TestNG.ContactModificationTests" />
         <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="TestNG.NewContactTest" />
         <item itemvalue="TestNG.GroupCreationTests" />
-        <item itemvalue="TestNG.GroupModificationTests" />
       </list>
     </recent_temporary>
   </component>
