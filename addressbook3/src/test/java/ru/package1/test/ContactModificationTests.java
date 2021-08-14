@@ -12,13 +12,13 @@ import java.util.List;
 public class ContactModificationTests extends TestBase{
     @BeforeMethod
     public void ensurePreconditions() {
-        app.getNavigationHelper().gotoContactPage();
+        app.goTo().gotoContactPage();
         if (!app.getContactHelper().isThereAContact()) {
-            app.getNavigationHelper().gotoGroupPage();
-            app.getGroupHelper().createGroup(new GroupData("New_groups_1", "1111", null));
-            app.getNavigationHelper().gotoGroupPage();
+            app.goTo().GroupPage();
+            app.group().create(new GroupData("New_groups_1", "1111", null));
+            app.goTo().GroupPage();
             app.getContactHelper().createContact(new ContactData("FirstName", "MiddleName", "LastName", "Nickname", "Title", "Company", "Address", "+79260211966", "Work", "email", "10", "november", "1982", "New_groups_1"), true);
-            app.getNavigationHelper().gotoContactPage();
+            app.goTo().gotoContactPage();
         }
     }
 

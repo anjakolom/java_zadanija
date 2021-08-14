@@ -11,13 +11,13 @@ import java.util.List;
 public class ContactDeletionTests extends TestBase {
     @BeforeMethod
     public void ensurePreconditions() {
-        app.getNavigationHelper().gotoContactPage();
+        app.goTo().gotoContactPage();
         if (!app.getContactHelper().isThereAContact()) {
-            app.getNavigationHelper().gotoGroupPage();
-            app.getGroupHelper().createGroup(new GroupData("New_groups_1", "1111", null));
-            app.getNavigationHelper().gotoGroupPage();
+            app.goTo().GroupPage();
+            app.group().create(new GroupData("New_groups_1", "1111", null));
+            app.goTo().GroupPage();
             app.getContactHelper().createContact(new ContactData("FirstName", "MiddleName", "LastName", "Nickname", "Title", "Company", "Address", "+79260211966", "Work", "email", "10", "november", "1982", "New_groups_1"), true);
-            app.getNavigationHelper().gotoContactPage();
+            app.goTo().gotoContactPage();
         }
     }
 
@@ -27,7 +27,7 @@ public class ContactDeletionTests extends TestBase {
         int before = app.getContactHelper().getContactCount();
         app.getContactHelper().selectContact(1);
         app.getContactHelper().deleteContact();
-        app.getNavigationHelper().gotoContactPage();
+        app.goTo().gotoContactPage();
         int after = app.getContactHelper().getContactCount();
         System.out.println("before " + before + "; after " + after);
         Assert.assertEquals(after, before - 1);
@@ -41,7 +41,7 @@ public class ContactDeletionTests extends TestBase {
         app.getContactHelper().selectContactFlag(index);
         app.getContactHelper().deleteContactButton();
         app.getContactHelper().closeAlert();
-        app.getNavigationHelper().gotoContactPage();
+        app.goTo().gotoContactPage();
         List<ContactData> after = app.getContactHelper().getContactList();
         Assert.assertEquals(after.size(), before.size() - 1);
 

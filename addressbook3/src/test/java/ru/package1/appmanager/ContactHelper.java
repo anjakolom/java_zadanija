@@ -1,7 +1,6 @@
 package ru.package1.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import ru.package1.model.ContactData;
@@ -11,10 +10,7 @@ import java.util.List;
 
 public class ContactHelper extends HelperBase {
 
-    //public ContactHelper(WebDriver wd) {
-      //  super(wd);
-    //}
-    public  ApplicationManager appl;  //т.к. в ApplicationManager: groupHelper = new GroupHelper(this);
+    public  ApplicationManager appl;
 
     public ContactHelper(ApplicationManager app) {
         super(app.wd);
@@ -94,7 +90,7 @@ public class ContactHelper extends HelperBase {
     public void modifyContact(ContactData contact) {
         fillContactForm(contact,false);
         submitContactModification();
-        appl.getNavigationHelper().gotoContactPage();
+        appl.goTo().gotoContactPage();
     }
 
     public int getContactCount() {

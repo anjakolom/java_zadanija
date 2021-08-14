@@ -92,7 +92,7 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactModificationTests">
+  <component name="RunManager" selected="TestNG.GroupDeletionTests">
     <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
@@ -120,6 +120,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1.test" />
       <option name="MAIN_CLASS_NAME" value="ru.package1.test.ContactModificationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.package1.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -161,36 +178,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.package1.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.ContactDeletionTests" />
       <item itemvalue="TestNG.ContactModificationTests" />
-      <item itemvalue="TestNG.ru.package1.test" />
       <item itemvalue="TestNG.GroupModificationTests" />
       <item itemvalue="TestNG.GroupDeletionTests" />
+      <item itemvalue="TestNG.GroupCreationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupDeletionTests" />
+        <item itemvalue="TestNG.GroupCreationTests" />
         <item itemvalue="TestNG.ContactModificationTests" />
         <item itemvalue="TestNG.ContactDeletionTests" />
-        <item itemvalue="TestNG.GroupDeletionTests" />
         <item itemvalue="TestNG.GroupModificationTests" />
-        <item itemvalue="TestNG.ru.package1.test" />
       </list>
     </recent_temporary>
   </component>
@@ -242,22 +243,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1628347748399" />
-    <state width="1322" height="211" key="GridCell.Tab.0.bottom" timestamp="1628865420894">
+    <state width="1322" height="211" key="GridCell.Tab.0.bottom" timestamp="1628951243357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628865420894" />
-    <state width="1322" height="211" key="GridCell.Tab.0.center" timestamp="1628865420894">
+    <state width="1322" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628951243357" />
+    <state width="1322" height="211" key="GridCell.Tab.0.center" timestamp="1628951243357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628865420894" />
-    <state width="1322" height="211" key="GridCell.Tab.0.left" timestamp="1628865420894">
+    <state width="1322" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628951243357" />
+    <state width="1322" height="211" key="GridCell.Tab.0.left" timestamp="1628951243357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628865420894" />
-    <state width="1322" height="211" key="GridCell.Tab.0.right" timestamp="1628865420894">
+    <state width="1322" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628951243357" />
+    <state width="1322" height="211" key="GridCell.Tab.0.right" timestamp="1628951243357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628865420894" />
+    <state width="1322" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628951243357" />
     <state width="1322" height="38" key="GridCell.Tab.1.bottom" timestamp="1628690033489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -294,10 +295,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="673" height="344" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1628454849708" />
-    <state x="504" y="134" key="extract.method.dialog" timestamp="1628865760772">
+    <state x="504" y="134" key="extract.method.dialog" timestamp="1628950593036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="504" y="134" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1628865760772" />
+    <state x="504" y="134" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1628950593036" />
     <state x="468" y="100" key="refactoring.ChangeSignatureDialog" timestamp="1628367207263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

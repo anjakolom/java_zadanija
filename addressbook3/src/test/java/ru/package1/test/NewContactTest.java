@@ -12,13 +12,13 @@ public class NewContactTest extends TestBase {
 
     @Test
     public void testNewContact() throws Exception {
-        app.getNavigationHelper().gotoGroupPage();
-        app.getGroupHelper().createGroup(new GroupData("New_groups_1", "1111", null));
-        app.getNavigationHelper().gotoContactPage();
+        app.goTo().GroupPage();
+        app.group().create(new GroupData("New_groups_1", "1111", null));
+        app.goTo().gotoContactPage();
         List<ContactData> before = app.getContactHelper().getContactList();
         ContactData contact = new ContactData("FirstName_n", "MiddleName_n", "LastName_n", "Nickname", "Title", "Company", "Address_new", "+7926021_new", "Work", "email_new", "10", "november", "1982", "New_groups_1");
         app.getContactHelper().createContact(contact, true);
-        app.getNavigationHelper().gotoContactPage();
+        app.goTo().gotoContactPage();
         List<ContactData> after = app.getContactHelper().getContactList();
 
         before.add(contact);
