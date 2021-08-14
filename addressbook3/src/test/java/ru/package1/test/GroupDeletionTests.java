@@ -10,10 +10,10 @@ public class GroupDeletionTests extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions() {
-        app.goTo().GroupPage();
+        app.goTo().groupPage();
         if (app.group().list().size() == 0) {
             app.group().create(new GroupData("New_groups_1", "1111", null));
-            app.goTo().GroupPage();
+            app.goTo().groupPage();
         }
     }
     @Test

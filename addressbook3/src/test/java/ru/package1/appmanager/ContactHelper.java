@@ -52,7 +52,7 @@ public class ContactHelper extends HelperBase {
 
     }
 
-    public void selectContact(int index) {
+    public void select(int index) {
         wd.findElements(By.xpath("//img[@alt='Edit']")).get(index).click();
     }
 
@@ -60,7 +60,7 @@ public class ContactHelper extends HelperBase {
         click(By.xpath("//div[@id='content']/form/input[22]"));
     }
 
-    public void deleteContact() {
+    public void delete() {
         click(By.xpath("//div[@id='content']/form[2]/input[2]"));
     }
 
@@ -80,7 +80,7 @@ public class ContactHelper extends HelperBase {
         return isElementPresent(By.xpath("//img[@alt='Edit']"));
     }
 
-    public void createContact(ContactData contact, boolean creation) {
+    public void create(ContactData contact, boolean creation) {
         initNewContact();
         fillContactForm(contact, creation);
         submitContactCreation();
@@ -90,15 +90,21 @@ public class ContactHelper extends HelperBase {
     public void modifyContact(ContactData contact) {
         fillContactForm(contact,false);
         submitContactModification();
-        appl.goTo().gotoContactPage();
+        appl.goTo().ContactPage();
     }
 
+    public void delete(int index) {
+        selectContactFlag(index);
+        deleteContactButton();
+        closeAlert();
+        appl.goTo().ContactPage();
+    }
     public int getContactCount() {
         return wd.findElements(By.name("selected[]")).size();
 
     }
 
-    public List<ContactData> getContactList() {
+    public List<ContactData> list() {
         List<ContactData> contacts = new ArrayList<ContactData>();
         List<WebElement> elements = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));//By.cssSelector("#maintable input[type='checkbox']"));
 

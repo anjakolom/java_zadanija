@@ -50,7 +50,7 @@ public class GroupHelper extends HelperBase {
         initGroupCreation();
         fillGroupForm(group);
         submitGroupCreation();
-        appl.goTo().GroupPage();
+        appl.goTo().groupPage();
     }
 
     public void modify(int index, GroupData group) {
@@ -58,14 +58,14 @@ public class GroupHelper extends HelperBase {
         initGroupModification();
         fillGroupForm(group);
         submitGroupModification();
-        appl.goTo().GroupPage();
+        appl.goTo().groupPage();
 
     }
 
     public void delete(int index) {
         selectGroup(index);
         deleteSelectedGroups();
-        appl.goTo().GroupPage();
+        appl.goTo().groupPage();
     }
 
     public boolean isThereAGroup() {
