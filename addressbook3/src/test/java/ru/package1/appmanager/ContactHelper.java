@@ -113,7 +113,7 @@ public class ContactHelper extends HelperBase {
             String lastName = element.getText();
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
             List<WebElement> cells = element.findElements(By.tagName("td"));
-            ContactData contact = new ContactData(id, cells.get(2).getText().trim(), null, cells.get(1).getText().trim(), null, null, null, cells.get(3).getText().trim(), cells.get(5).getText(), null, cells.get(4).getText(), null, null, null, null);
+            ContactData contact = new ContactData().withId(id).withFirstName(cells.get(2).getText().trim()).withLastName(cells.get(1).getText().trim()).withAddress(cells.get(3).getText().trim()).withEmail(cells.get(5).getText().trim()).withMobileTelephone(cells.get(4).getText().trim());
             contacts.add(contact);
             System.out.println(id + "; " + cells.get(1).getText() + "; " + cells.get(2).getText() + "; " + cells.get(3).getText() + "; " + cells.get(4).getText() + "; " + cells.get(5).getText());
 
