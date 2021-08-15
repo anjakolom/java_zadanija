@@ -106,7 +106,7 @@ public class ContactHelper extends HelperBase {
 
     public List<ContactData> list() {
         List<ContactData> contacts = new ArrayList<ContactData>();
-        List<WebElement> elements = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));//By.cssSelector("#maintable input[type='checkbox']"));
+        List<WebElement> elements = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));
 
         System.out.println("Получили список контактов из таблицы: ");
         for (WebElement element : elements) {
