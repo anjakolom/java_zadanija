@@ -5,12 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import ru.package1.model.ContactData;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ContactHelper extends HelperBase {
 
-    public  ApplicationManager appl;
+    public ApplicationManager appl;
 
     public ContactHelper(ApplicationManager app) {
         super(app.wd);
@@ -56,6 +57,10 @@ public class ContactHelper extends HelperBase {
         wd.findElements(By.xpath("//img[@alt='Edit']")).get(index).click();
     }
 
+    public void selectByID(int id) {
+        wd.findElement(By.cssSelector("a[href='edit.php?id=" + id + "']")).click();
+    }
+
     public void submitContactModification() {
         click(By.xpath("//div[@id='content']/form/input[22]"));
     }
@@ -68,8 +73,8 @@ public class ContactHelper extends HelperBase {
         wd.switchTo().alert().accept();
     }
 
-    public void selectContactFlag(int index) {
-        wd.findElements(By.name("selected[]")).get(index).click();
+    public void selectContactFlagByID(int id) {
+        wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
     }
 
     public void deleteContactButton() {
@@ -88,24 +93,24 @@ public class ContactHelper extends HelperBase {
     }
 
     public void modifyContact(ContactData contact) {
-        fillContactForm(contact,false);
+        fillContactForm(contact, false);
         submitContactModification();
         appl.goTo().ContactPage();
     }
 
-    public void delete(int index) {
-        selectContactFlag(index);
+    public void delete(ContactData contact) {
+        selectContactFlagByID(contact.getId());
         deleteContactButton();
         closeAlert();
         appl.goTo().ContactPage();
     }
+
     public int getContactCount() {
         return wd.findElements(By.name("selected[]")).size();
-
     }
 
-    public List<ContactData> list() {
-        List<ContactData> contacts = new ArrayList<ContactData>();
+    public Set<ContactData> all() {
+        Set<ContactData> contacts = new HashSet<ContactData>();
         List<WebElement> elements = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));
 
         System.out.println("Получили список контактов из таблицы: ");

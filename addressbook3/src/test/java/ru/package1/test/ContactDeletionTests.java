@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import ru.package1.model.ContactData;
 import ru.package1.model.GroupData;
 
-import java.util.List;
+import java.util.Set;
 
 public class ContactDeletionTests extends TestBase {
     @BeforeMethod
@@ -39,17 +39,16 @@ public class ContactDeletionTests extends TestBase {
     @Test
     //Удаление из списка
     public void testContactDelete2() {
-        List<ContactData> before = app.contact().list();
-        int index = before.size() - 1;
-        app.contact().delete(index);
-        List<ContactData> after = app.contact().list();
+        Set<ContactData> before = app.contact().all();
+        //int index = before.size() - 1;
+        ContactData deletedContact = before.iterator().next();
+        app.contact().delete(deletedContact);
+        Set<ContactData> after = app.contact().all();
         Assert.assertEquals(after.size(), before.size() - 1);
 
-        before.remove(index);
+        before.remove(deletedContact);
         System.out.println("Сравнение списков контактов:");
-        for (int i = 0; i < after.size(); i++) {
-            System.out.println(before.get(i) + "; " + after.get(i));
-        }
+
         Assert.assertEquals(before, after);
         app.logout();
     }
