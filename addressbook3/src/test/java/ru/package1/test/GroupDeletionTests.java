@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import ru.package1.model.GroupData;
 import ru.package1.model.Groups;
 
-
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.testng.Assert.assertEquals;
