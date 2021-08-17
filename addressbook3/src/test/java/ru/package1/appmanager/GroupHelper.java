@@ -5,9 +5,7 @@ import org.openqa.selenium.WebElement;
 import ru.package1.model.GroupData;
 import ru.package1.model.Groups;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class GroupHelper extends HelperBase {
     public  ApplicationManager appl;

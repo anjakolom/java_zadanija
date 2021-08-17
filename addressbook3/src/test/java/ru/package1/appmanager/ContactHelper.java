@@ -6,9 +6,7 @@ import org.testng.Assert;
 import ru.package1.model.ContactData;
 import ru.package1.model.Contacts;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class ContactHelper extends HelperBase {
 
@@ -90,12 +88,14 @@ public class ContactHelper extends HelperBase {
         initNewContact();
         fillContactForm(contact, creation);
         submitContactCreation();
+        contactCashe = null;
 
     }
 
     public void modifyContact(ContactData contact) {
         fillContactForm(contact, false);
         submitContactModification();
+        contactCashe = null;
         appl.goTo().ContactPage();
     }
 
@@ -103,6 +103,7 @@ public class ContactHelper extends HelperBase {
         selectContactFlagByID(contact.getId());
         deleteContactButton();
         closeAlert();
+        contactCashe = null;
         appl.goTo().ContactPage();
     }
 
@@ -110,8 +111,13 @@ public class ContactHelper extends HelperBase {
         return wd.findElements(By.name("selected[]")).size();
     }
 
+    private Contacts contactCashe = null;
+
     public Contacts all() {
-        Contacts contacts = new Contacts();
+        if (contactCashe != null){
+            return new Contacts(contactCashe);
+        }
+        contactCashe = new Contacts();
         List<WebElement> elements = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));
 
         System.out.println("Получили список контактов из таблицы: ");
@@ -120,10 +126,10 @@ public class ContactHelper extends HelperBase {
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
             List<WebElement> cells = element.findElements(By.tagName("td"));
             //ContactData contact = new ContactData().withId(id).withFirstName(cells.get(2).getText().trim()).withLastName(cells.get(1).getText().trim()).withAddress(cells.get(3).getText().trim()).withEmail(cells.get(5).getText().trim()).withMobileTelephone(cells.get(4).getText().trim());
-            contacts.add(new ContactData().withId(id).withFirstName(cells.get(2).getText().trim()).withLastName(cells.get(1).getText().trim()).withAddress(cells.get(3).getText().trim()).withEmail(cells.get(5).getText().trim()).withMobileTelephone(cells.get(4).getText().trim()));
+            contactCashe.add(new ContactData().withId(id).withFirstName(cells.get(2).getText().trim()).withLastName(cells.get(1).getText().trim()).withAddress(cells.get(3).getText().trim()).withEmail(cells.get(5).getText().trim()).withMobileTelephone(cells.get(4).getText().trim()));
             System.out.println(id + "; " + cells.get(1).getText() + "; " + cells.get(2).getText() + "; " + cells.get(3).getText() + "; " + cells.get(4).getText() + "; " + cells.get(5).getText());
 
         }
-        return contacts;
+        return new Contacts(contactCashe);
     }
 }
