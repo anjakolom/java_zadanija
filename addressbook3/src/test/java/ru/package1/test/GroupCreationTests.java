@@ -14,7 +14,7 @@ public class GroupCreationTests extends TestBase {
 
         app.goTo().groupPage();
         Groups before = app.group().all();
-        GroupData group = new GroupData().withName("New_groups_55'").withHeader("1111");
+        GroupData group = new GroupData().withName("New_groups_55").withHeader("1111");
         app.group().create(group);
         assertThat(app.group().count(),equalTo(before.size()+1));
         Groups after = app.group().all();
@@ -31,7 +31,7 @@ public class GroupCreationTests extends TestBase {
 
         app.goTo().groupPage();
         Groups before = app.group().all();
-        GroupData group = new GroupData().withName("New_groups_55").withHeader("1111");
+        GroupData group = new GroupData().withName("New_groups_55'").withHeader("1111");
         app.group().create(group);
         assertThat(app.group().count(),equalTo(before.size()));
         Groups after = app.group().all();

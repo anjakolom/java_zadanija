@@ -29,11 +29,11 @@ public class ContactDeletionTests extends TestBase {
     @Test(enabled = false)
     //Удаление из формы редактирования контакта
     public void testContactDelete1() {
-        int before = app.contact().getContactCount();
+        int before = app.contact().count();
         app.contact().select(1);
         app.contact().delete();
         app.goTo().ContactPage();
-        int after = app.contact().getContactCount();
+        int after = app.contact().count();
         System.out.println("before " + before + "; after " + after);
         Assert.assertEquals(after, before - 1);
     }
@@ -44,8 +44,9 @@ public class ContactDeletionTests extends TestBase {
         Contacts before = app.contact().all();
         ContactData deletedContact = before.iterator().next();
         app.contact().delete(deletedContact);
+        assertThat(app.contact().count(),equalTo(before.size()-1));
         Contacts after = app.contact().all();
-        Assert.assertEquals(after.size(), before.size() - 1);
+
         assertThat(after, equalTo(before.without(deletedContact)));
 
         app.logout();

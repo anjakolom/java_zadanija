@@ -15,7 +15,6 @@ public class ContactHelper extends HelperBase {
     public ContactHelper(ApplicationManager app) {
         super(app.wd);
         this.appl = app;
-
     }
 
     public void fillContactForm(ContactData contactData, boolean creation) {
@@ -107,7 +106,7 @@ public class ContactHelper extends HelperBase {
         appl.goTo().ContactPage();
     }
 
-    public int getContactCount() {
+    public int count() {
         return wd.findElements(By.name("selected[]")).size();
     }
 

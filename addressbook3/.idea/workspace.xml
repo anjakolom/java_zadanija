@@ -93,7 +93,7 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.ru.package1.test">
-    <configuration name="ContactModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +102,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.ContactModificationTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -146,7 +146,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NewContactTest.testNewContact" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
         <pattern>
@@ -156,7 +156,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1.test" />
       <option name="MAIN_CLASS_NAME" value="ru.package1.test.NewContactTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testNewContact" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -181,18 +182,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.ru.package1.test" />
-      <item itemvalue="TestNG.ContactModificationTests" />
-      <item itemvalue="TestNG.NewContactTest" />
       <item itemvalue="TestNG.GroupCreationTests.testBadGroupCreation" />
       <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
+      <item itemvalue="TestNG.NewContactTest.testNewContact" />
+      <item itemvalue="TestNG.GroupCreationTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ru.package1.test" />
+        <item itemvalue="TestNG.GroupCreationTests" />
+        <item itemvalue="TestNG.NewContactTest.testNewContact" />
         <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
         <item itemvalue="TestNG.GroupCreationTests.testBadGroupCreation" />
-        <item itemvalue="TestNG.NewContactTest" />
-        <item itemvalue="TestNG.ContactModificationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -244,22 +245,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1628347748399" />
-    <state width="1322" height="215" key="GridCell.Tab.0.bottom" timestamp="1629208491154">
+    <state width="1322" height="215" key="GridCell.Tab.0.bottom" timestamp="1629209704225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629208491154" />
-    <state width="1322" height="215" key="GridCell.Tab.0.center" timestamp="1629208491154">
+    <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629209704225" />
+    <state width="1322" height="215" key="GridCell.Tab.0.center" timestamp="1629209704225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629208491154" />
-    <state width="1322" height="215" key="GridCell.Tab.0.left" timestamp="1629208491154">
+    <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629209704225" />
+    <state width="1322" height="215" key="GridCell.Tab.0.left" timestamp="1629209704225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629208491154" />
-    <state width="1322" height="215" key="GridCell.Tab.0.right" timestamp="1629208491154">
+    <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629209704225" />
+    <state width="1322" height="215" key="GridCell.Tab.0.right" timestamp="1629209704225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629208491154" />
+    <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629209704225" />
     <state width="1322" height="279" key="GridCell.Tab.1.bottom" timestamp="1629181188157">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

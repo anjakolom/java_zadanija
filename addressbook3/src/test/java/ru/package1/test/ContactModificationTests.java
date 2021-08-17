@@ -1,6 +1,5 @@
 package ru.package1.test;
 
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.package1.model.ContactData;
@@ -34,8 +33,9 @@ public class ContactModificationTests extends TestBase{
         app.contact().selectByID(modifiedContact.getId());
         ContactData contact = new ContactData().withId(modifiedContact.getId()).withFirstName("FirstName_m").withLastName("LastName_m");
         app.contact().modifyContact(contact);
+        assertThat(app.contact().count(),equalTo(before.size()));
         Contacts after = app.contact().all();
-        Assert.assertEquals(after.size(),before.size());
+
         assertThat(after, equalTo(before.without(modifiedContact).withAdded(contact)));
 
         app.logout();
