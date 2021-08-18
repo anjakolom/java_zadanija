@@ -11,13 +11,17 @@ public class ContactData {
     private  String title;
     private  String company;
     private  String address;
+    private  String homeTelephone;
     private  String mobileTelephone;
+    private  String workTelephone;
+    private  String faxTelephone;
     private  String work;
     private  String email;
     private  String birthday;
     private  String bmonth;
     private  String year;
     private  String group;
+    private  String allPhones;
 
     @Override
     public boolean equals(Object o) {
@@ -72,11 +76,35 @@ public class ContactData {
         this.address = address;
         return this;
     }
-
+    public ContactData withHomeTelephone(String telephone) {
+        this.homeTelephone = telephone;
+        return this;
+    }
     public ContactData withMobileTelephone(String mobileTelephone) {
         this.mobileTelephone = mobileTelephone;
         return this;
     }
+
+
+    public ContactData withWorkTelephone(String telephone) {
+        this.workTelephone= telephone;
+        return this;
+    }
+
+    public ContactData withFaxTelephone(String telephone) {
+        this.faxTelephone = telephone;
+        return this;
+    }
+
+    public ContactData withAllPhones(String telephone) {
+        this.allPhones = telephone;
+        return this;
+    }
+
+    public String getAllPhones() {
+        return allPhones;
+    }
+
 
     public ContactData withWork(String work) {
         this.work = work;
@@ -162,6 +190,18 @@ public class ContactData {
 
     public String getGroup() {
         return group;
+    }
+
+    public String getHomeTelephone() {
+        return homeTelephone;
+    }
+
+    public String getWorkTelephone() {
+        return workTelephone;
+    }
+
+    public String getFaxTelephone() {
+        return faxTelephone;
     }
 
     @Override

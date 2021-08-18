@@ -17,9 +17,9 @@ public class NewContactTest extends TestBase {
         app.goTo().ContactPage();
         Contacts before = app.contact().all();
         ContactData contact = new ContactData().withFirstName("FirstName").withMiddleName("MiddleName").withLastName("LastName")
-                .withNickname("Nickname").withTitle("Title").withCompany("Company").withAddress("Address")
-                .withMobileTelephone("+79260211966").withWork("Work").withEmail( "email").withBirthday("10")
-                .withBmonth("november").withYear( "1982").withGroup("New_groups_1");
+                .withNickname("Nickname").withTitle("Title").withCompany("Company").withAddress("Address dom 6, kv 8")
+                .withHomeTelephone("+8(495) 5555566").withMobileTelephone("+79260211966").withFaxTelephone("7-495-7774466").withWork("Work")
+                .withEmail( "email@email.ru").withBirthday("10").withBmonth("november").withYear( "1982").withGroup("New_groups_1");
         app.contact().create(contact, true);
         app.goTo().ContactPage();
         assertThat(app.contact().count(),equalTo(before.size()+1));
