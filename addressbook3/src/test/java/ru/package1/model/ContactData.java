@@ -17,11 +17,15 @@ public class ContactData {
     private  String faxTelephone;
     private  String work;
     private  String email;
+    private  String email2;
+    private  String email3;
     private  String birthday;
     private  String bmonth;
     private  String year;
     private  String group;
     private  String allPhones;
+    private  String allemail;
+
 
     @Override
     public boolean equals(Object o) {
@@ -136,6 +140,21 @@ public class ContactData {
         return this;
     }
 
+    public ContactData withEmail2(String email) {
+        this.email2 = email;
+        return this;
+    }
+
+    public ContactData withEmail3(String email) {
+        this.email3 = email;
+        return this;
+    }
+
+    public ContactData withAllemail(String email) {
+        this.allemail = email;
+        return this;
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -174,6 +193,30 @@ public class ContactData {
 
     public String getEmail() {
         return email;
+    }
+
+    public String getEmail2() {
+        return email2;
+    }
+
+    public void setEmail2(String email2) {
+        this.email2 = email2;
+    }
+
+    public String getEmail3() {
+        return email3;
+    }
+
+    public void setEmail3(String email3) {
+        this.email3 = email3;
+    }
+
+    public String getAllemail() {
+        return allemail;
+    }
+
+    public void setAllemail(String allemail) {
+        this.allemail = allemail;
     }
 
     public String getBirthday() {
