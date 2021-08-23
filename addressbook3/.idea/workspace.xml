@@ -93,7 +93,7 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupCreationTests.testGroupCreation">
+  <component name="RunManager" selected="TestNG.GroupCreationTests.testGroupCreation (2)">
     <configuration name="GroupDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.package1.generators.GroupDataGenerator" />
       <module name="addressbook3.test" />
@@ -108,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTests.testGroupCreation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
         <pattern>
@@ -117,15 +117,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.ContactDeletionTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
+      <option name="METHOD_NAME" value="testGroupCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupCreationTests.testGroupCreation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTests.testGroupCreation (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
         <pattern>
@@ -181,17 +182,17 @@
     <list>
       <item itemvalue="Application.GroupDataGenerator" />
       <item itemvalue="TestNG.NewContactTest" />
-      <item itemvalue="TestNG.ContactDeletionTests" />
       <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
       <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (1)" />
+      <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (2)" />
         <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
         <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (1)" />
         <item itemvalue="Application.GroupDataGenerator" />
         <item itemvalue="TestNG.NewContactTest" />
-        <item itemvalue="TestNG.ContactDeletionTests" />
       </list>
     </recent_temporary>
   </component>
@@ -219,10 +220,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629702006375">
+    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629741231794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629702006375" />
+    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629741231794" />
     <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1629402921782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

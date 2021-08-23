@@ -5,10 +5,13 @@ import org.testng.annotations.Test;
 import ru.package1.model.GroupData;
 import ru.package1.model.Groups;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -16,13 +19,18 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class GroupCreationTests extends TestBase {
 
     @DataProvider
-    public Iterator<Object[]> validGroups(){
-        List<Object[]> List = new ArrayList<Object[]>();
-        List.add(new Object[] {new GroupData().withName("Name1").withHeader("header1").withFooter("footer1")});
-        List.add(new Object[] {new GroupData().withName("Name2").withHeader("header2").withFooter("footer2")});
-        List.add(new Object[] {new GroupData().withName("Name3").withHeader("header3").withFooter("footer3")});
-        return List.iterator();
+    public Iterator<Object[]> validGroups() throws IOException {
+        List<Object[]> list = new ArrayList<Object[]>();
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/groups.csv")));
+        String line = reader.readLine();
+        while (line!=null){
+            String[] split = line.split(";");
+            list.add(new Object[] {new GroupData().withName(split[0]).withHeader(split[1]).withFooter(split[2])});
+            line = reader.readLine();
+        }
+        return list.iterator();
     }
+
     @Test(dataProvider = "validGroups")
     public void testGroupCreation(GroupData group) throws Exception {
         app.goTo().groupPage();
