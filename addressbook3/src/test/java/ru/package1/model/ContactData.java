@@ -1,5 +1,6 @@
 package ru.package1.model;
 
+import java.io.File;
 import java.util.Objects;
 
 public class ContactData {
@@ -25,6 +26,8 @@ public class ContactData {
     private  String group;
     private  String allPhones;
     private  String allemail;
+    private File photo;
+
 
 
     @Override
@@ -152,6 +155,14 @@ public class ContactData {
 
     public ContactData withAllemail(String email) {
         this.allemail = email;
+        return this;
+    }
+    public File getPhoto() {
+        return photo;
+    }
+
+    public ContactData withPhoto(File photo) {
+        this.photo = photo;
         return this;
     }
 
