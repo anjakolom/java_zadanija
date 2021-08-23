@@ -93,11 +93,11 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GroupDataGenerators">
-    <configuration name="GroupDataGenerators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.package1.generators.GroupDataGenerators" />
+  <component name="RunManager" selected="Application.GroupDataGenerator">
+    <configuration name="GroupDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.package1.generators.GroupDataGenerator" />
       <module name="addressbook3.test" />
-      <option name="PROGRAM_PARAMETERS" value="10 src\test\resources\groups.csv" />
+      <option name="PROGRAM_PARAMETERS" value="-c 25 -f src\test\resources\groups.csv" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.package1.generators.*" />
@@ -177,7 +177,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GroupDataGenerators" />
+      <item itemvalue="Application.GroupDataGenerator" />
       <item itemvalue="TestNG.ru.package1.test" />
       <item itemvalue="TestNG.NewContactTest" />
       <item itemvalue="TestNG.NewContactTest.testNewContact" />
@@ -185,7 +185,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GroupDataGenerators" />
+        <item itemvalue="Application.GroupDataGenerator" />
         <item itemvalue="TestNG.NewContactTest" />
         <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="TestNG.ru.package1.test" />
@@ -217,10 +217,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629700121594">
+    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629702006375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629700121594" />
+    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629702006375" />
     <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1629402921782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -249,22 +249,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629699832120" />
-    <state width="1126" height="247" key="GridCell.Tab.0.bottom" timestamp="1629700054768">
+    <state width="1125" height="332" key="GridCell.Tab.0.bottom" timestamp="1629701969409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1126" height="247" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629700054768" />
-    <state width="1126" height="247" key="GridCell.Tab.0.center" timestamp="1629700054768">
+    <state width="1125" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629701969409" />
+    <state width="1125" height="332" key="GridCell.Tab.0.center" timestamp="1629701969409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1126" height="247" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629700054768" />
-    <state width="1126" height="247" key="GridCell.Tab.0.left" timestamp="1629700054768">
+    <state width="1125" height="332" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629701969409" />
+    <state width="1125" height="332" key="GridCell.Tab.0.left" timestamp="1629701969409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1126" height="247" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629700054768" />
-    <state width="1126" height="247" key="GridCell.Tab.0.right" timestamp="1629700054768">
+    <state width="1125" height="332" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629701969409" />
+    <state width="1125" height="332" key="GridCell.Tab.0.right" timestamp="1629701969409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1126" height="247" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629700054768" />
+    <state width="1125" height="332" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629701969409" />
     <state width="1167" height="220" key="GridCell.Tab.1.bottom" timestamp="1629694081464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -325,11 +325,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactDeletionTests.java</url>
           <line>47</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/generators/GroupDataGenerators.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
