@@ -93,7 +93,7 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GroupDataGenerator">
+  <component name="RunManager" selected="TestNG.GroupCreationTests.testGroupCreation">
     <configuration name="GroupDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.package1.generators.GroupDataGenerator" />
       <module name="addressbook3.test" />
@@ -125,6 +125,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupCreationTests.testGroupCreation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.package1.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
+      <option name="METHOD_NAME" value="testGroupCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupCreationTests.testGroupCreation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.package1.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
+      <option name="METHOD_NAME" value="testGroupCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NewContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
@@ -142,54 +178,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewContactTest.testNewContact" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.NewContactTest" />
-      <option name="METHOD_NAME" value="testNewContact" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.package1.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.GroupDataGenerator" />
-      <item itemvalue="TestNG.ru.package1.test" />
       <item itemvalue="TestNG.NewContactTest" />
-      <item itemvalue="TestNG.NewContactTest.testNewContact" />
       <item itemvalue="TestNG.ContactDeletionTests" />
+      <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
+      <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
+        <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (1)" />
         <item itemvalue="Application.GroupDataGenerator" />
         <item itemvalue="TestNG.NewContactTest" />
         <item itemvalue="TestNG.ContactDeletionTests" />
-        <item itemvalue="TestNG.ru.package1.test" />
-        <item itemvalue="TestNG.NewContactTest.testNewContact" />
       </list>
     </recent_temporary>
   </component>
@@ -249,22 +251,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629699832120" />
-    <state width="1125" height="332" key="GridCell.Tab.0.bottom" timestamp="1629701969409">
+    <state width="1125" height="267" key="GridCell.Tab.0.bottom" timestamp="1629740365529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629701969409" />
-    <state width="1125" height="332" key="GridCell.Tab.0.center" timestamp="1629701969409">
+    <state width="1125" height="267" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629740365529" />
+    <state width="1125" height="267" key="GridCell.Tab.0.center" timestamp="1629740365529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="332" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629701969409" />
-    <state width="1125" height="332" key="GridCell.Tab.0.left" timestamp="1629701969409">
+    <state width="1125" height="267" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629740365529" />
+    <state width="1125" height="267" key="GridCell.Tab.0.left" timestamp="1629740365528">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="332" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629701969409" />
-    <state width="1125" height="332" key="GridCell.Tab.0.right" timestamp="1629701969409">
+    <state width="1125" height="267" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629740365528" />
+    <state width="1125" height="267" key="GridCell.Tab.0.right" timestamp="1629740365529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="332" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629701969409" />
+    <state width="1125" height="267" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629740365529" />
     <state width="1167" height="220" key="GridCell.Tab.1.bottom" timestamp="1629694081464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -313,10 +315,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="329" y="152" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1628270259159" />
-    <state x="372" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1627046091513">
+    <state x="372" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1629739556337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="372" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1627046091513" />
+    <state x="372" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1629739556337" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
