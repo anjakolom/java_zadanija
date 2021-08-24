@@ -1,28 +1,48 @@
 package ru.package1.test;
 
+import com.solidfire.gson.Gson;
+import org.openqa.selenium.json.TypeToken;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import ru.package1.model.ContactData;
 import ru.package1.model.Contacts;
 import ru.package1.model.GroupData;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class NewContactTest extends TestBase {
 
-    @Test
-    public void testNewContact() throws Exception {
+    @DataProvider
+    public Iterator<Object[]> validContactFromJson() throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/contacts.json")));
+        String json = "";
+        String line = reader.readLine();
+        while (line!=null){
+            json+=line;
+            line = reader.readLine();
+        }
+        Gson gson = new Gson();
+        List<ContactData> contacts = gson.fromJson(json,new TypeToken<List<ContactData>>(){}.getType());
+        return contacts.stream().map((g) -> new Object[]{g}).collect(Collectors.toList()).iterator();
+    }
+
+    @Test(dataProvider = "validContactFromJson")
+    public void testNewContact(ContactData contact) throws Exception {
         app.goTo().groupPage();
         app.group().create(new GroupData().withName("New_groups_1"));
         app.goTo().ContactPage();
         Contacts before = app.contact().all();
         File photo = new File("src/test/resources/img.png");
-        ContactData contact = new ContactData().withFirstName("FirstName").withMiddleName("MiddleName").withLastName("LastName")
-                .withNickname("Nickname").withTitle("Title").withCompany("Company").withAddress("Address dom 6, kv 8")
-                .withHomeTelephone("+8(495) 5555566").withMobileTelephone("+79260211966").withFaxTelephone("7-495-7774466").withWork("Work")
-                .withEmail( "email@email.ru").withBirthday("10").withBmonth("november").withYear( "1982").withGroup("New_groups_1").withPhoto(photo);
+        contact.withPhoto(photo);
         app.contact().create(contact, true);
         app.goTo().ContactPage();
         assertThat(app.contact().count(),equalTo(before.size()+1));
@@ -34,7 +54,6 @@ public class NewContactTest extends TestBase {
         app.logout();
 
     }
-
 
     @Test(enabled = false)
     public void testCurrentDir(){

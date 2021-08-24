@@ -1,31 +1,54 @@
 package ru.package1.model;
 
+import com.solidfire.gson.annotations.Expose;
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+import com.thoughtworks.xstream.annotations.XStreamOmitField;
+
 import java.io.File;
 import java.util.Objects;
-
+@XStreamAlias("contact")
 public class ContactData {
+    @XStreamOmitField
     private int id = Integer.MAX_VALUE;
+    @Expose
     private  String firstName;
+    @Expose
     private  String middleName;
+    @Expose
     private  String lastName;
+    @Expose
     private  String nickname;
+    @Expose
     private  String title;
+    @Expose
     private  String company;
+    @Expose
     private  String address;
+    @Expose
     private  String homeTelephone;
+    @Expose
     private  String mobileTelephone;
+    @Expose
     private  String workTelephone;
+    @Expose
     private  String faxTelephone;
+    @Expose
     private  String work;
+    @Expose
     private  String email;
     private  String email2;
     private  String email3;
+    @Expose
     private  String birthday;
+    @Expose
     private  String bmonth;
+    @Expose
     private  String year;
+    @Expose
     private  String group;
     private  String allPhones;
     private  String allemail;
+    @Expose
     private File photo;
 
 

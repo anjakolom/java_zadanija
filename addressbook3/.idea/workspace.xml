@@ -93,11 +93,11 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupCreationTests.testGroupCreation (2)">
-    <configuration name="GroupDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.package1.generators.GroupDataGenerator" />
+  <component name="RunManager" selected="TestNG.NewContactTest">
+    <configuration name="ContactDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.package1.generators.ContactDataGenerator" />
       <module name="addressbook3.test" />
-      <option name="PROGRAM_PARAMETERS" value="-c 25 -f src\test\resources\groups.csv" />
+      <option name="PROGRAM_PARAMETERS" value="-c 5 -f src\test\resources\contacts.json -d json" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.package1.generators.*" />
@@ -108,7 +108,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupCreationTests.testGroupCreation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.package1.generators.GroupDataGenerator" />
+      <module name="addressbook3.test" />
+      <option name="PROGRAM_PARAMETERS" value="-c 5 -f src\test\resources\groups.json -d json" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.generators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +132,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1.test" />
       <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
-      <option name="METHOD_NAME" value="testGroupCreation" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -127,24 +140,6 @@
       </method>
     </configuration>
     <configuration name="GroupCreationTests.testGroupCreation (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
-      <option name="METHOD_NAME" value="testGroupCreation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupCreationTests.testGroupCreation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
         <pattern>
@@ -181,18 +176,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GroupDataGenerator" />
-      <item itemvalue="TestNG.NewContactTest" />
-      <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
-      <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (1)" />
+      <item itemvalue="Application.ContactDataGenerator" />
+      <item itemvalue="TestNG.GroupCreationTests" />
       <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (2)" />
+      <item itemvalue="TestNG.NewContactTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (2)" />
-        <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
-        <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (1)" />
-        <item itemvalue="Application.GroupDataGenerator" />
         <item itemvalue="TestNG.NewContactTest" />
+        <item itemvalue="Application.ContactDataGenerator" />
+        <item itemvalue="TestNG.GroupCreationTests" />
+        <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (2)" />
+        <item itemvalue="Application.GroupDataGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -220,10 +215,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629741231794">
+    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629797276162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629741231794" />
+    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629797276162" />
     <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1629402921782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -252,38 +247,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629699832120" />
-    <state width="1125" height="267" key="GridCell.Tab.0.bottom" timestamp="1629740365529">
+    <state width="1120" height="189" key="GridCell.Tab.0.bottom" timestamp="1629804633512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="267" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629740365529" />
-    <state width="1125" height="267" key="GridCell.Tab.0.center" timestamp="1629740365529">
+    <state width="1120" height="189" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629804633512" />
+    <state width="1120" height="189" key="GridCell.Tab.0.center" timestamp="1629804633512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="267" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629740365529" />
-    <state width="1125" height="267" key="GridCell.Tab.0.left" timestamp="1629740365528">
+    <state width="1120" height="189" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629804633512" />
+    <state width="1120" height="189" key="GridCell.Tab.0.left" timestamp="1629804633512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="267" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629740365528" />
-    <state width="1125" height="267" key="GridCell.Tab.0.right" timestamp="1629740365529">
+    <state width="1120" height="189" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629804633512" />
+    <state width="1120" height="189" key="GridCell.Tab.0.right" timestamp="1629804633512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="267" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629740365529" />
-    <state width="1167" height="220" key="GridCell.Tab.1.bottom" timestamp="1629694081464">
+    <state width="1120" height="189" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629804633512" />
+    <state width="1165" height="220" key="GridCell.Tab.1.bottom" timestamp="1629803607699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1167" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629694081464" />
-    <state width="1167" height="220" key="GridCell.Tab.1.center" timestamp="1629694081464">
+    <state width="1165" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629803607699" />
+    <state width="1165" height="220" key="GridCell.Tab.1.center" timestamp="1629803607699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1167" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1629694081464" />
-    <state width="1167" height="220" key="GridCell.Tab.1.left" timestamp="1629694081464">
+    <state width="1165" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1629803607699" />
+    <state width="1165" height="220" key="GridCell.Tab.1.left" timestamp="1629803607699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1167" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1629694081464" />
-    <state width="1167" height="220" key="GridCell.Tab.1.right" timestamp="1629694081464">
+    <state width="1165" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1629803607699" />
+    <state width="1165" height="220" key="GridCell.Tab.1.right" timestamp="1629803607699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1167" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1629694081464" />
+    <state width="1165" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1629803607699" />
     <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass" timestamp="1627041204265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

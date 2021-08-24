@@ -1,0 +1,27 @@
+<list>
+  <group>
+    <name>Groups_generate_xml1</name>
+    <header>Header_generate_xml1</header>
+    <footer>footer_generate_xml1</footer>
+  </group>
+  <group>
+    <name>Groups_generate_1</name>
+    <header>Header_generate_1</header>
+    <footer>footer_generate_1</footer>
+  </group>
+  <group>
+    <name>Groups_generate_2</name>
+    <header>Header_generate_2</header>
+    <footer>footer_generate_2</footer>
+  </group>
+  <group>
+    <name>Groups_generate_3</name>
+    <header>Header_generate_3</header>
+    <footer>footer_generate_3</footer>
+  </group>
+  <group>
+    <name>Groups_generate_4</name>
+    <header>Header_generate_4</header>
+    <footer>footer_generate_4</footer>
+  </group>
+</list>
