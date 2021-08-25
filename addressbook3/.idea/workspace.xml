@@ -93,11 +93,11 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NewContactTest">
-    <configuration name="ContactDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GroupCreationTests">
+    <configuration name="ContactDataGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.package1.generators.ContactDataGenerator" />
       <module name="addressbook3.test" />
-      <option name="PROGRAM_PARAMETERS" value="-c 5 -f src\test\resources\contacts.json -d json" />
+      <option name="PROGRAM_PARAMETERS" value="-c 2 -f src\test\resources\contacts.json -d json" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.package1.generators.*" />
@@ -111,13 +111,52 @@
     <configuration name="GroupDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.package1.generators.GroupDataGenerator" />
       <module name="addressbook3.test" />
-      <option name="PROGRAM_PARAMETERS" value="-c 5 -f src\test\resources\groups.json -d json" />
+      <option name="PROGRAM_PARAMETERS" value="-c 2 -f src\test\resources\groups.json -d json" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.package1.generators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testing-contacts.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testing-contacts.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testng-groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-groups.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,55 +178,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupCreationTests.testGroupCreation (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
-      <option name="METHOD_NAME" value="testGroupCreation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.NewContactTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.GroupDataGenerator" />
       <item itemvalue="Application.ContactDataGenerator" />
+      <item itemvalue="Application.GroupDataGenerator" />
+      <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
+      <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testng-groups.xml" />
+      <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml (1)" />
       <item itemvalue="TestNG.GroupCreationTests" />
-      <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (2)" />
-      <item itemvalue="TestNG.NewContactTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NewContactTest" />
         <item itemvalue="TestNG.GroupCreationTests" />
-        <item itemvalue="Application.ContactDataGenerator" />
-        <item itemvalue="TestNG.GroupCreationTests.testGroupCreation (2)" />
+        <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml (1)" />
+        <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testng-groups.xml" />
         <item itemvalue="Application.GroupDataGenerator" />
+        <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -215,10 +220,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629797276162">
+    <state x="83" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629867397532">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629797276162" />
+    <state x="83" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629867397532" />
     <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1629402921782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -247,22 +252,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629699832120" />
-    <state width="1120" height="189" key="GridCell.Tab.0.bottom" timestamp="1629806398530">
+    <state width="1117" height="206" key="GridCell.Tab.0.bottom" timestamp="1629867473155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1120" height="189" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629806398530" />
-    <state width="1120" height="189" key="GridCell.Tab.0.center" timestamp="1629806398530">
+    <state width="1117" height="206" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629867473155" />
+    <state width="1117" height="206" key="GridCell.Tab.0.center" timestamp="1629867473155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1120" height="189" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629806398530" />
-    <state width="1120" height="189" key="GridCell.Tab.0.left" timestamp="1629806398530">
+    <state width="1117" height="206" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629867473155" />
+    <state width="1117" height="206" key="GridCell.Tab.0.left" timestamp="1629867473155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1120" height="189" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629806398530" />
-    <state width="1120" height="189" key="GridCell.Tab.0.right" timestamp="1629806398530">
+    <state width="1117" height="206" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629867473155" />
+    <state width="1117" height="206" key="GridCell.Tab.0.right" timestamp="1629867473155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1120" height="189" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629806398530" />
+    <state width="1117" height="206" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629867473155" />
     <state width="1165" height="220" key="GridCell.Tab.1.bottom" timestamp="1629803607699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

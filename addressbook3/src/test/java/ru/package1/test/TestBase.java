@@ -7,7 +7,8 @@ import ru.package1.appmanager.ApplicationManager;
 
 public class TestBase {
     //Драйвер браузера: BrowserType.FIREFOX,BrowserType.IE,BrowserType.CHROME
-    protected static  ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
+    protected static final ApplicationManager app
+            = new ApplicationManager(System.getProperty("browser", BrowserType.FIREFOX));
 
     @BeforeSuite
     public void setUp() throws Exception {
