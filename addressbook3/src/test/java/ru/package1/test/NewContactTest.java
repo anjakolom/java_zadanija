@@ -43,14 +43,13 @@ public class NewContactTest extends TestBase {
         app.goTo().groupPage();
         app.group().create(new GroupData().withName("New_groups_1"));
         app.goTo().ContactPage();
-        Contacts before = app.contact().all();
+        Contacts before = app.db().contacts();
         File photo = new File("src/test/resources/img.png");
         contact.withPhoto(photo);
         app.contact().create(contact, true);
         app.goTo().ContactPage();
         assertThat(app.contact().count(),equalTo(before.size()+1));
-        Contacts after = app.contact().all();
-
+        Contacts after = app.db().contacts();
         assertThat(after, equalTo(before.withAdded(contact.withId(after.stream()
                 .mapToInt((g)->g.getId()).max().getAsInt()))));
 
