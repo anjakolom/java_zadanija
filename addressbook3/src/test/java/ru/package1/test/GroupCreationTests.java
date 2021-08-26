@@ -14,7 +14,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -24,7 +23,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GroupCreationTests extends TestBase {
 
-    Logger logger = LoggerFactory.getLogger(GroupCreationTests.class);
+
 
     @DataProvider
     public Iterator<Object[]> validGroupsFromXML() throws IOException {
@@ -60,7 +59,6 @@ public class GroupCreationTests extends TestBase {
 
     @Test(dataProvider = "validGroupsFromJson")
     public void testGroupCreation(GroupData group) throws Exception {
-        logger.info("Start test testGroupCreation");
         app.goTo().groupPage();
         Groups before = app.group().all();
         app.group().create(group);
@@ -75,7 +73,7 @@ public class GroupCreationTests extends TestBase {
     }
 
 
-    @Test()
+    @Test(enabled = false)
     public void testBadGroupCreation() throws Exception {
 
         app.goTo().groupPage();

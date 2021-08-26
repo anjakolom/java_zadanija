@@ -46,6 +46,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="addressbook3" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="addressbook3" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="addressbook3" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -93,25 +104,11 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupCreationTests">
+  <component name="RunManager" selected="TestNG.HbConnectionTest">
     <configuration name="ContactDataGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.package1.generators.ContactDataGenerator" />
       <module name="addressbook3.test" />
       <option name="PROGRAM_PARAMETERS" value="-c 2 -f src\test\resources\contacts.json -d json" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.generators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.package1.generators.GroupDataGenerator" />
-      <module name="addressbook3.test" />
-      <option name="PROGRAM_PARAMETERS" value="-c 2 -f src\test\resources\groups.json -d json" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.package1.generators.*" />
@@ -132,29 +129,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testng-groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testing-contacts.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-groups.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testng-groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DbConnectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-groups.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.package1.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.DbConnectionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -178,21 +173,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HbConnectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.package1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.package1.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.HbConnectionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ContactDataGenerator" />
-      <item itemvalue="Application.GroupDataGenerator" />
-      <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
       <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testng-groups.xml" />
       <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml (1)" />
       <item itemvalue="TestNG.GroupCreationTests" />
+      <item itemvalue="TestNG.DbConnectionTest" />
+      <item itemvalue="TestNG.HbConnectionTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GroupCreationTests" />
+        <item itemvalue="TestNG.HbConnectionTest" />
+        <item itemvalue="TestNG.DbConnectionTest" />
         <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml (1)" />
         <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testng-groups.xml" />
-        <item itemvalue="Application.GroupDataGenerator" />
-        <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
+        <item itemvalue="TestNG.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +232,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1629870729700">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1629870729700" />
     <state x="83" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629867397532">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -252,22 +268,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629699832120" />
-    <state width="1117" height="206" key="GridCell.Tab.0.bottom" timestamp="1629867473155">
+    <state width="1114" height="280" key="GridCell.Tab.0.bottom" timestamp="1629953758663">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1117" height="206" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629867473155" />
-    <state width="1117" height="206" key="GridCell.Tab.0.center" timestamp="1629867473155">
+    <state width="1114" height="280" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629953758663" />
+    <state width="1114" height="280" key="GridCell.Tab.0.center" timestamp="1629953758647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1117" height="206" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629867473155" />
-    <state width="1117" height="206" key="GridCell.Tab.0.left" timestamp="1629867473155">
+    <state width="1114" height="280" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629953758647" />
+    <state width="1114" height="280" key="GridCell.Tab.0.left" timestamp="1629953758647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1117" height="206" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629867473155" />
-    <state width="1117" height="206" key="GridCell.Tab.0.right" timestamp="1629867473155">
+    <state width="1114" height="280" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629953758647" />
+    <state width="1114" height="280" key="GridCell.Tab.0.right" timestamp="1629953758647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1117" height="206" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629867473155" />
+    <state width="1114" height="280" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629953758647" />
     <state width="1165" height="220" key="GridCell.Tab.1.bottom" timestamp="1629803607699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -296,10 +312,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="524" y="411" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1627163248337" />
-    <state x="256" y="0" key="SettingsEditor" timestamp="1629402548351">
+    <state x="256" y="0" key="SettingsEditor" timestamp="1629953660919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="256" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1629402548351" />
+    <state x="256" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1629953660919" />
     <state width="673" height="344" key="XDebugger.FullValuePopup" timestamp="1629264355596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
