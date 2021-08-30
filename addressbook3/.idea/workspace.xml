@@ -104,7 +104,7 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactTests">
+  <component name="RunManager" selected="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml">
     <configuration name="ContactDataGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.package1.generators.ContactDataGenerator" />
       <module name="addressbook3.test" />
@@ -115,6 +115,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testing-contacts.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,7 +163,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
         <pattern>
@@ -162,24 +172,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.ContactTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupCreationTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.GroupModificationTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -206,19 +199,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ContactDataGenerator" />
-      <item itemvalue="TestNG.GroupCreationTests" />
       <item itemvalue="TestNG.NewContactTest" />
-      <item itemvalue="TestNG.ContactDeletionTests" />
       <item itemvalue="TestNG.ContactModificationTests" />
-      <item itemvalue="TestNG.ContactTests" />
+      <item itemvalue="TestNG.GroupModificationTests" />
+      <item itemvalue="TestNG.ContactDeletionTests" />
+      <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactTests" />
+        <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
         <item itemvalue="TestNG.ContactModificationTests" />
-        <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="TestNG.NewContactTest" />
-        <item itemvalue="TestNG.GroupCreationTests" />
+        <item itemvalue="TestNG.ContactDeletionTests" />
+        <item itemvalue="TestNG.GroupModificationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -254,10 +247,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="83" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629867397532" />
-    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1629402921782">
+    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1630267748284">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1629402921782" />
+    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1630267748284" />
     <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1629401316166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -286,38 +279,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629699832120" />
-    <state width="1109" height="145" key="GridCell.Tab.0.bottom" timestamp="1630009560295">
+    <state width="1100" height="282" key="GridCell.Tab.0.bottom" timestamp="1630334164322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1109" height="145" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630009560295" />
-    <state width="1109" height="145" key="GridCell.Tab.0.center" timestamp="1630009560295">
+    <state width="1100" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630334164322" />
+    <state width="1100" height="282" key="GridCell.Tab.0.center" timestamp="1630334164322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1109" height="145" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630009560295" />
-    <state width="1109" height="145" key="GridCell.Tab.0.left" timestamp="1630009560295">
+    <state width="1100" height="282" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630334164322" />
+    <state width="1100" height="282" key="GridCell.Tab.0.left" timestamp="1630334164322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1109" height="145" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630009560295" />
-    <state width="1109" height="145" key="GridCell.Tab.0.right" timestamp="1630009560295">
+    <state width="1100" height="282" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630334164322" />
+    <state width="1100" height="282" key="GridCell.Tab.0.right" timestamp="1630334164322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1109" height="145" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630009560295" />
-    <state width="1165" height="220" key="GridCell.Tab.1.bottom" timestamp="1629803607699">
+    <state width="1100" height="282" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630334164322" />
+    <state width="1157" height="165" key="GridCell.Tab.1.bottom" timestamp="1630334077816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1165" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629803607699" />
-    <state width="1165" height="220" key="GridCell.Tab.1.center" timestamp="1629803607699">
+    <state width="1157" height="165" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630334077816" />
+    <state width="1157" height="165" key="GridCell.Tab.1.center" timestamp="1630334077816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1165" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1629803607699" />
-    <state width="1165" height="220" key="GridCell.Tab.1.left" timestamp="1629803607699">
+    <state width="1157" height="165" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630334077816" />
+    <state width="1157" height="165" key="GridCell.Tab.1.left" timestamp="1630334077816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1165" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1629803607699" />
-    <state width="1165" height="220" key="GridCell.Tab.1.right" timestamp="1629803607699">
+    <state width="1157" height="165" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630334077816" />
+    <state width="1157" height="165" key="GridCell.Tab.1.right" timestamp="1630334077816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1165" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1629803607699" />
+    <state width="1157" height="165" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630334077816" />
     <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass" timestamp="1627041204265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -359,14 +352,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/appmanager/HelperBase.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/NewContactTest.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/appmanager/HelperBase.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactModificationTests.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

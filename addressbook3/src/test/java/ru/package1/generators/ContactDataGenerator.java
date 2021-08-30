@@ -59,7 +59,7 @@ public class ContactDataGenerator {
             contacts.add(new ContactData().withFirstName(String.format("FirstName_%s", i))
                     .withFirstName(String.format("FirstName_%s", i)).withMiddleName(String.format("MiddleName_%s", i)).withLastName(String.format("LastName_%s", i))
                     .withNickname(String.format("Nickname_%s", i)).withTitle(String.format("Title_%s", i)).withCompany(String.format("Company_%s", i)).withAddress(String.format("Address dom %s, kv _%s", i, i))
-                    .withHomeTelephone(String.format("(495) 55555%s%s", i, i)).withMobileTelephone(String.format("+792602119%s%s", i, i)).withFaxTelephone(String.format("7-495-77744%s%s", i, i)).withWork(String.format("Work_%s", i))
+                    .withHomeTelephone(String.format("(495) 55555%s%s", i, i)).withMobileTelephone(String.format("+792602119%s%s", i, i)).withFaxTelephone(String.format("7-495-77744%s%s", i, i)).withWorkTelephone(String.format("Work_%s", i))
                     .withEmail(String.format("email%s@email.ru", i)).withBirthday(String.format("%s", i)).withBmonth("november").withYear("1982").withGroup("New_groups_1"));
         }
         return contacts;

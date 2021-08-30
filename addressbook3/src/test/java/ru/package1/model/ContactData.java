@@ -15,7 +15,8 @@ public class ContactData {
     @XStreamOmitField
     @Id
     @Column(name = "id")
-    private int id = Integer.MAX_VALUE;
+    //private int id = Integer.MAX_VALUE;
+    private int id;
     @Expose
     @Column(name = "firstname")
     private  String firstName;
@@ -61,9 +62,11 @@ public class ContactData {
     @Column(name = "email")
     @Type(type="text")
     private  String email;
+    @Expose
     @Type(type="text")
     @Column(name = "email2")
     private  String email2;
+    @Expose
     @Type(type="text")
     @Column(name = "email3")
     private  String email3;
@@ -95,13 +98,54 @@ public class ContactData {
         ContactData that = (ContactData) o;
         return id == that.id &&
                 Objects.equals(firstName, that.firstName) &&
-                Objects.equals(lastName, that.lastName);
+                Objects.equals(middleName, that.middleName) &&
+                Objects.equals(lastName, that.lastName) &&
+                Objects.equals(nickname, that.nickname) &&
+                Objects.equals(title, that.title) &&
+                Objects.equals(company, that.company) &&
+                Objects.equals(address, that.address) &&
+                Objects.equals(mobileTelephone, that.mobileTelephone) &&
+                Objects.equals(workTelephone, that.workTelephone) &&
+                Objects.equals(email, that.email) ;
     }
 
     @Override
     public int hashCode() {
+        return Objects.hash(id, firstName, middleName, lastName, nickname, title, company, address, mobileTelephone, workTelephone, email);
+    }
+
+    @Override
+    public String toString() {
+        return "ContactData{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", middleName='" + middleName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", nickname='" + nickname + '\'' +
+                ", title='" + title + '\'' +
+                ", company='" + company + '\'' +
+                ", address='" + address + '\'' +
+                ", mobileTelephone='" + mobileTelephone + '\'' +
+                ", work='" + workTelephone + '\'' +
+                ", email='" + email + '\'' +
+                ", photo='" + photo + '\'' +
+                '}';
+    }
+
+    /* @Override
+    public int hashCode() {
         return Objects.hash(id, firstName, lastName);
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ContactData that = (ContactData) o;
+        return id == that.id &&
+                Objects.equals(firstName, that.firstName) &&
+                Objects.equals(lastName, that.lastName);
+    }*/
 
     public int getId() {
         return id;
@@ -261,7 +305,7 @@ public class ContactData {
     }
 
     public String getWork() {
-        return work;
+        return workTelephone;
     }
 
     public String getEmail() {
@@ -320,15 +364,15 @@ public class ContactData {
         return faxTelephone;
     }
 
-    @Override
-    public String toString() {
-        return "ContactData{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                '}';
-    }
-
+    /* @Override
+        public String toString() {
+            return "ContactData{" +
+                    "id=" + id +
+                    ", firstName='" + firstName + '\'' +
+                    ", lastName='" + lastName + '\'' +
+                    '}';
+        }
+    */
     public ContactData withId(int id) {
         this.id = id;
         return this;

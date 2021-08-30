@@ -6,13 +6,15 @@ import ru.package1.model.ContactData;
 import ru.package1.model.Contacts;
 import ru.package1.model.GroupData;
 
+import java.io.File;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactModificationTests extends TestBase{
     @BeforeMethod
     public void ensurePreconditions() {
-        app.goTo().ContactPage();
+        //app.goTo().ContactPage();
         if (app.db().contacts().size() == 0) {
             app.goTo().groupPage();
             app.group().create(new GroupData().withName("New_groups_1"));
@@ -30,11 +32,16 @@ public class ContactModificationTests extends TestBase{
         Contacts before = app.db().contacts();
         ContactData modifiedContact = before.iterator().next();
         app.contact().selectByID(modifiedContact.getId());
-        ContactData contact = new ContactData().withId(modifiedContact.getId()).withFirstName("FirstName_m").withLastName("LastName_m");
+        File photo = new File("src/test/resources/img2.png");
+        ContactData contact = new ContactData().withId(modifiedContact.getId()).withFirstName("FirstName_222")
+                .withLastName("LastName_222").withMiddleName("MiddleName_222").withTitle("title_222").withNickname("222")
+                .withEmail("email@2222.ru").withMobileTelephone("+722222222222")
+                .withWorkTelephone("work_222").withAddress("Москва 2222222")
+                .withCompany("Company_222").withPhoto(photo);
         app.contact().modifyContact(contact);
         assertThat(app.contact().count(),equalTo(before.size()));
         Contacts after = app.db().contacts();
-
+        
         assertThat(after, equalTo(before.without(modifiedContact).withAdded(contact)));
 
         app.logout();
