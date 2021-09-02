@@ -104,7 +104,7 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml">
+  <component name="RunManager" selected="TestNG.ContactAddGroup">
     <configuration name="ContactDataGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.package1.generators.ContactDataGenerator" />
       <module name="addressbook3.test" />
@@ -180,7 +180,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HbConnectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook3.test" />
       <extension name="coverage">
         <pattern>
@@ -189,7 +189,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.NewContactTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.package1.test.HbConnectionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -199,19 +199,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ContactDataGenerator" />
-      <item itemvalue="TestNG.NewContactTest" />
       <item itemvalue="TestNG.ContactAddGroup" />
       <item itemvalue="TestNG.ContactDeleteGroup" />
       <item itemvalue="TestNG.ContactDeletionTests" />
       <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
+      <item itemvalue="TestNG.HbConnectionTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
         <item itemvalue="TestNG.ContactAddGroup" />
+        <item itemvalue="TestNG.HbConnectionTest" />
+        <item itemvalue="TestNG.C:/КУРС_Java_для_тестировщиков/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
         <item itemvalue="TestNG.ContactDeleteGroup" />
         <item itemvalue="TestNG.ContactDeletionTests" />
-        <item itemvalue="TestNG.NewContactTest" />
       </list>
     </recent_temporary>
   </component>
@@ -279,38 +279,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629699832120" />
-    <state width="1158" height="191" key="GridCell.Tab.0.bottom" timestamp="1630564415914">
+    <state width="1144" height="288" key="GridCell.Tab.0.bottom" timestamp="1630585821983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1158" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630564415914" />
-    <state width="1158" height="191" key="GridCell.Tab.0.center" timestamp="1630564415914">
+    <state width="1144" height="288" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630585821983" />
+    <state width="1144" height="288" key="GridCell.Tab.0.center" timestamp="1630585821983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1158" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630564415914" />
-    <state width="1158" height="191" key="GridCell.Tab.0.left" timestamp="1630564415914">
+    <state width="1144" height="288" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630585821983" />
+    <state width="1144" height="288" key="GridCell.Tab.0.left" timestamp="1630585821983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1158" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630564415914" />
-    <state width="1158" height="191" key="GridCell.Tab.0.right" timestamp="1630564415914">
+    <state width="1144" height="288" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630585821983" />
+    <state width="1144" height="288" key="GridCell.Tab.0.right" timestamp="1630585821983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1158" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630564415914" />
-    <state width="1146" height="242" key="GridCell.Tab.1.bottom" timestamp="1630563638115">
+    <state width="1144" height="288" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630585821983" />
+    <state width="1144" height="288" key="GridCell.Tab.1.bottom" timestamp="1630585821983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1146" height="242" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630563638115" />
-    <state width="1146" height="242" key="GridCell.Tab.1.center" timestamp="1630563638115">
+    <state width="1144" height="288" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630585821983" />
+    <state width="1144" height="288" key="GridCell.Tab.1.center" timestamp="1630585821983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1146" height="242" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630563638115" />
-    <state width="1146" height="242" key="GridCell.Tab.1.left" timestamp="1630563638115">
+    <state width="1144" height="288" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630585821983" />
+    <state width="1144" height="288" key="GridCell.Tab.1.left" timestamp="1630585821983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1146" height="242" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630563638115" />
-    <state width="1146" height="242" key="GridCell.Tab.1.right" timestamp="1630563638115">
+    <state width="1144" height="288" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630585821983" />
+    <state width="1144" height="288" key="GridCell.Tab.1.right" timestamp="1630585821983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1146" height="242" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630563638115" />
+    <state width="1144" height="288" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630585821983" />
     <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass" timestamp="1627041204265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -368,13 +368,51 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactDeleteGroup.java</url>
-          <line>57</line>
+          <line>59</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/package1/appmanager/ContactHelper.java</url>
           <line>90</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactAddGroup.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactAddGroup.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactAddGroup.java</url>
+          <line>37</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactAddGroup.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactAddGroup.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactAddGroup.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactAddGroup.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

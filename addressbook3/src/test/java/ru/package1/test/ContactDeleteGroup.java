@@ -18,6 +18,8 @@ public class ContactDeleteGroup extends TestBase{
     public void testContactDeleteGroup() {
 
         //Создание нового контакта без привязки к группе
+        //  groupId = contact.getGroups().iterator().next().getId();
+        // groupName = contact.getGroups().iterator().next().getName();
         app.goTo().ContactPage();
         ContactData newContact = new ContactData().withLastName("Lastname_new")
                 .withFirstName("Firstname_new").withMiddleName("MidleName_new");

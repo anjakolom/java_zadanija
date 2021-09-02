@@ -13,7 +13,7 @@ import ru.package1.model.Groups;
 import java.util.List;
 
 public class DbHelper {
-    private  SessionFactory sessionFactory;
+    private  final SessionFactory sessionFactory;
 
     public DbHelper() {
         // A SessionFactory is set up once for an application!
