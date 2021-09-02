@@ -3,11 +3,15 @@ package ru.package1.model;
 import com.solidfire.gson.annotations.Expose;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamOmitField;
+import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.io.File;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
+
 @XStreamAlias("contact")
 @Entity
 @Table(name="addressbook")
@@ -79,9 +83,7 @@ public class ContactData {
     @Expose
     @Column(name = "byear")
     private  String year;
-    @Expose
-    @Transient
-    private  String group;
+
     @Transient
     private  String allPhones;
     @Transient
@@ -90,6 +92,11 @@ public class ContactData {
     @Column(name="photo")
     @Type(type="text")
     private String photo;
+
+    @ManyToMany(fetch =  FetchType.EAGER)
+    @JoinTable(name="address_in_groups",
+            joinColumns = @JoinColumn(name="id"), inverseJoinColumns = @JoinColumn(name="group_id"))
+    private Set<GroupData> groups = new HashSet<GroupData>();
 
     @Override
     public boolean equals(Object o) {
@@ -131,21 +138,6 @@ public class ContactData {
                 ", photo='" + photo + '\'' +
                 '}';
     }
-
-    /* @Override
-    public int hashCode() {
-        return Objects.hash(id, firstName, lastName);
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        ContactData that = (ContactData) o;
-        return id == that.id &&
-                Objects.equals(firstName, that.firstName) &&
-                Objects.equals(lastName, that.lastName);
-    }*/
 
     public int getId() {
         return id;
@@ -240,10 +232,6 @@ public class ContactData {
         return this;
     }
 
-    public ContactData withGroup(String group) {
-        this.group = group;
-        return this;
-    }
 
     public ContactData withEmail2(String email) {
         this.email2 = email;
@@ -348,10 +336,6 @@ public class ContactData {
         return year;
     }
 
-    public String getGroup() {
-        return group;
-    }
-
     public String getHomeTelephone() {
         return homeTelephone;
     }
@@ -364,17 +348,18 @@ public class ContactData {
         return faxTelephone;
     }
 
-    /* @Override
-        public String toString() {
-            return "ContactData{" +
-                    "id=" + id +
-                    ", firstName='" + firstName + '\'' +
-                    ", lastName='" + lastName + '\'' +
-                    '}';
-        }
-    */
     public ContactData withId(int id) {
         this.id = id;
         return this;
     }
+
+    public Groups getGroups() {
+        return new Groups(groups);
+    }
+
+    public ContactData getGroup(GroupData group) {
+        groups.add(group);
+        return this;
+    }
+
 }

@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import ru.package1.model.ContactData;
 import ru.package1.model.Contacts;
 import ru.package1.model.GroupData;
+import ru.package1.model.Groups;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -40,6 +41,7 @@ public class NewContactTest extends TestBase {
 
     @Test(dataProvider = "validContactFromJson")
     public void testNewContact(ContactData contact) throws Exception {
+        Groups groups = app.db().groups();
         app.goTo().groupPage();
         app.group().create(new GroupData().withName("New_groups_1"));
         app.goTo().ContactPage();

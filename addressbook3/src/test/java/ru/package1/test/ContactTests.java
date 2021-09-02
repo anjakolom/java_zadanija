@@ -23,7 +23,8 @@ public class ContactTests extends TestBase{
                     .withNickname("Nickname").withTitle("Title").withCompany("Company").withAddress("Address, d.6, rv. 57 123234")
                     .withHomeTelephone("+8(495) 5555566").withMobileTelephone("+79260211966").withFaxTelephone("7-495-7774466").withWork("Work")
                     .withEmail( "email@email.ru").withBirthday("10")
-                    .withBmonth("november").withYear( "1982").withGroup("New_groups_1"), true);
+                    .withBmonth("november").withYear( "1982"), true);
+            //.withGroup("New_groups_1")
             app.goTo().ContactPage();
         }
     }

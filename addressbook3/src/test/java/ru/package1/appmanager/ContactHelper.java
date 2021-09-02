@@ -2,6 +2,7 @@ package ru.package1.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.package1.model.ContactData;
 import ru.package1.model.Contacts;
@@ -31,11 +32,14 @@ public class ContactHelper extends HelperBase {
         attach(By.name("photo"), contactData.getPhoto());
 
         if (creation) {
-            select(By.name("new_group"), contactData.getGroup());
-        } else {
+            if (contactData.getGroups().size()>0){
+                Assert.assertTrue(contactData.getGroups().size() == 1);
+            select(By.name("new_group"), contactData.getGroups().stream().iterator().next().getName());
+            }
+        }
+        else {
             Assert.assertFalse(isElementPresent(By.name("new_group")));
         }
-        click(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Secondary'])[1]/preceding::option[1]"));
 
     }
 
@@ -68,6 +72,26 @@ public class ContactHelper extends HelperBase {
         click(By.xpath("//div[@id='content']/form[2]/input[2]"));
     }
 
+    public void addContactToGroup(int groupId){
+
+        wd.findElement(By.name("to_group")).click();
+        new Select(wd.findElement(By.name("to_group"))).selectByValue("" + groupId);
+        wd.findElement(By.name("add")).click();
+        contactCashe = null;
+
+    }
+
+    public void changesGroup(int groupId, String nameGroup) {
+        wd.findElement(By.name("group")).click();
+        new Select(wd.findElement(By.name("group"))).selectByValue("" + groupId);
+
+    }
+
+    public void deleteContactGroup() {
+        wd.findElement(By.name("remove")).click();
+        contactCashe = null;
+
+    }
     public void closeAlert() {
         wd.switchTo().alert().accept();
     }
@@ -152,5 +176,6 @@ public class ContactHelper extends HelperBase {
                 .withHomeTelephone(home).withMobileTelephone(mobile).withWorkTelephone(work).withAddress(address).withEmail(email)
                 .withEmail2(email2).withEmail3(email3);
     }
+
 
 }

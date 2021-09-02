@@ -30,9 +30,10 @@ public class GroupModificationTests extends TestBase {
         System.out.println("after:  "+after);
         System.out.println("modif:   "+modifiedGroup);
         assertThat(after, equalTo(before.without(modifiedGroup).withAdded(group)));
-
+        verifyGroupListInUI();
         app.logout();
     }
+
 
 
 }
