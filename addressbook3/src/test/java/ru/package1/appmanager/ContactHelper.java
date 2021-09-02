@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.package1.model.ContactData;
 import ru.package1.model.Contacts;
+import ru.package1.model.GroupData;
 
 import java.util.List;
 
@@ -72,16 +73,24 @@ public class ContactHelper extends HelperBase {
         click(By.xpath("//div[@id='content']/form[2]/input[2]"));
     }
 
-    public void addContactToGroup(int groupId){
+    public void addContactToGroup(GroupData group){
+
+        wd.findElement(By.name("to_group")).click();
+        new Select(wd.findElement(By.name("to_group"))).selectByValue("" + group.getId());
+        wd.findElement(By.name("add")).click();
+        contactCashe = null;
+
+    }
+    /*public void addContactToGroup(int groupId){
 
         wd.findElement(By.name("to_group")).click();
         new Select(wd.findElement(By.name("to_group"))).selectByValue("" + groupId);
         wd.findElement(By.name("add")).click();
         contactCashe = null;
 
-    }
+    }*/
 
-    public void changesGroup(int groupId, String nameGroup) {
+    public void changesGroup(int groupId) {
         wd.findElement(By.name("group")).click();
         new Select(wd.findElement(By.name("group"))).selectByValue("" + groupId);
 
