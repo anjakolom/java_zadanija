@@ -32,6 +32,9 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/../mantis-tests">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -39,12 +42,20 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/../mantis-tests">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="addressbook3" type="f1a62948:ProjectNode" />
+                <item name="mantis-tests" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mantis-tests" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -79,7 +90,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mantis-tests/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.31944445" />
@@ -88,6 +99,13 @@
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\КУРС_Java_для_тестировщиков\githab\GitHub\java_zadanija\mantis-tests\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.pakage1.appmanager" />
+      <recent name="ru.pakage1" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.package1.appmanager" />
       <recent name="ru.package1" />
@@ -228,6 +246,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1630678571421">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1630678571421" />
     <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1629870729700">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -264,42 +286,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1629405473618" />
-    <state x="486" y="134" key="FileChooserDialogImpl" timestamp="1629699832120">
+    <state x="486" y="134" key="FileChooserDialogImpl" timestamp="1630677712664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629699832120" />
-    <state width="1148" height="4" key="GridCell.Tab.0.bottom" timestamp="1630611286326">
+    <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630677712664" />
+    <state width="1140" height="239" key="GridCell.Tab.0.bottom" timestamp="1630651561274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1148" height="4" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630611286326" />
-    <state width="1148" height="4" key="GridCell.Tab.0.center" timestamp="1630611286326">
+    <state width="1140" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630651561274" />
+    <state width="1140" height="239" key="GridCell.Tab.0.center" timestamp="1630651561274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1148" height="4" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630611286326" />
-    <state width="1148" height="4" key="GridCell.Tab.0.left" timestamp="1630611286326">
+    <state width="1140" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630651561274" />
+    <state width="1140" height="239" key="GridCell.Tab.0.left" timestamp="1630651561274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1148" height="4" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630611286326" />
-    <state width="1148" height="4" key="GridCell.Tab.0.right" timestamp="1630611286326">
+    <state width="1140" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630651561274" />
+    <state width="1140" height="239" key="GridCell.Tab.0.right" timestamp="1630651561274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1148" height="4" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630611286326" />
-    <state width="1140" height="239" key="GridCell.Tab.1.bottom" timestamp="1630610765634">
+    <state width="1140" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630651561274" />
+    <state width="1140" height="239" key="GridCell.Tab.1.bottom" timestamp="1630651561289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="239" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630610765634" />
-    <state width="1140" height="239" key="GridCell.Tab.1.center" timestamp="1630610765634">
+    <state width="1140" height="239" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630651561289" />
+    <state width="1140" height="239" key="GridCell.Tab.1.center" timestamp="1630651561289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="239" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630610765634" />
-    <state width="1140" height="239" key="GridCell.Tab.1.left" timestamp="1630610765634">
+    <state width="1140" height="239" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630651561289" />
+    <state width="1140" height="239" key="GridCell.Tab.1.left" timestamp="1630651561274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="239" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630610765634" />
-    <state width="1140" height="239" key="GridCell.Tab.1.right" timestamp="1630610765634">
+    <state width="1140" height="239" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630651561274" />
+    <state width="1140" height="239" key="GridCell.Tab.1.right" timestamp="1630651561289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="239" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630610765634" />
+    <state width="1140" height="239" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630651561289" />
     <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass" timestamp="1627041204265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -312,10 +334,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="524" y="411" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1627163248337" />
-    <state x="256" y="0" key="SettingsEditor" timestamp="1629953660919">
+    <state x="256" y="0" key="SettingsEditor" timestamp="1630678238510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="256" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1629953660919" />
+    <state x="256" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1630678238510" />
     <state width="673" height="344" key="XDebugger.FullValuePopup" timestamp="1629264355596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
