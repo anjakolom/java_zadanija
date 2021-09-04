@@ -2,6 +2,7 @@ package ru.pakage1.appmanager;
 
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
@@ -42,5 +43,12 @@ public class HttpSession {
         } finally {
             response.close();
         }
+    }
+
+    public boolean isLoggedInAs (String username) throws IOException{
+        HttpGet get = new HttpGet(app.getProperty("web.baseUrl")+"/index.php");
+        CloseableHttpResponse response = httpClient.execute(get);
+        String body = geTextForm(response);
+        return body.contains(String.format("<span class = \"italic\">%s</span>", username));
     }
 }
