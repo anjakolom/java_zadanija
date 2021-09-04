@@ -90,7 +90,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mantis-tests/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.31944445" />
@@ -99,16 +99,16 @@
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\КУРС_Java_для_тестировщиков\githab\GitHub\java_zadanija\mantis-tests\src\test\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.package1.appmanager" />
+      <recent name="ru.package1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.pakage1.appmanager" />
       <recent name="ru.pakage1" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.package1.appmanager" />
-      <recent name="ru.package1" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\КУРС_Java_для_тестировщиков\githab\GitHub\java_zadanija\mantis-tests\src\test\resources" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.ContactAddGroup">
@@ -286,10 +286,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1629405473618" />
-    <state x="486" y="134" key="FileChooserDialogImpl" timestamp="1630677712664">
+    <state x="486" y="134" key="FileChooserDialogImpl" timestamp="1630762131050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630677712664" />
+    <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630762131050" />
     <state width="1140" height="239" key="GridCell.Tab.0.bottom" timestamp="1630651561274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -334,10 +334,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="524" y="411" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1627163248337" />
-    <state x="256" y="0" key="SettingsEditor" timestamp="1630678238510">
+    <state x="177" y="0" key="SettingsEditor" timestamp="1630771746138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="256" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1630678238510" />
+    <state x="177" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1630771746138" />
     <state width="673" height="344" key="XDebugger.FullValuePopup" timestamp="1629264355596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
