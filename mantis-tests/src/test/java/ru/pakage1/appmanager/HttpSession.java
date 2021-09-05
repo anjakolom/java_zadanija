@@ -9,7 +9,6 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.impl.client.LaxRedirectStrategy;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
-import org.omg.CORBA.NameValuePair;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -25,8 +24,9 @@ public class HttpSession {
     }
 
     public boolean login(String username, String password) throws IOException {
-        HttpPost post = new HttpPost (app.getProperty("web.BaseUrl")+"/login.php");
-        List<NameValuePair> params = new ArrayList<NameValuePair>();
+        //HttpPost post = new HttpPost (app.getProperty("web.BaseUrl")+"login_password_page.php");
+        HttpPost post = new HttpPost ("http://localhost/mantisbt-2.25.2/login_password_page.php");
+        List<BasicNameValuePair> params = new ArrayList<BasicNameValuePair>();
         params.add(new BasicNameValuePair("username", username));
         params.add(new BasicNameValuePair("password", password));
         params.add(new BasicNameValuePair("secure_session","on"));
