@@ -52,11 +52,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="mantis-tests" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mantis-tests" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -112,7 +107,7 @@
       <recent name="ru.package1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTests">
+  <component name="RunManager" selected="TestNG.RegistrationTests">
     <configuration name="ContactDataGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.package1.generators.ContactDataGenerator" />
       <module name="addressbook3.test" />
@@ -283,8 +278,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.RegistrationTests" />
+        <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.LoginTests (1)" />
         <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.LoginTests" />
@@ -327,10 +322,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="83" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1630778789148" />
-    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1630398562320">
+    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1630863129403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1630398562320" />
+    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1630863129403" />
     <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1629401316166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -359,38 +354,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630762131050" />
-    <state width="1322" height="221" key="GridCell.Tab.0.bottom" timestamp="1630831706471">
+    <state width="1322" height="241" key="GridCell.Tab.0.bottom" timestamp="1630866721205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630831706471" />
-    <state width="1322" height="221" key="GridCell.Tab.0.center" timestamp="1630831706471">
+    <state width="1322" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630866721205" />
+    <state width="1322" height="241" key="GridCell.Tab.0.center" timestamp="1630866721205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630831706471" />
-    <state width="1322" height="221" key="GridCell.Tab.0.left" timestamp="1630831706471">
+    <state width="1322" height="241" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630866721205" />
+    <state width="1322" height="241" key="GridCell.Tab.0.left" timestamp="1630866721205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630831706471" />
-    <state width="1322" height="221" key="GridCell.Tab.0.right" timestamp="1630831706471">
+    <state width="1322" height="241" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630866721205" />
+    <state width="1322" height="241" key="GridCell.Tab.0.right" timestamp="1630866721205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630831706471" />
-    <state width="1322" height="241" key="GridCell.Tab.1.bottom" timestamp="1630828774098">
+    <state width="1322" height="241" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630866721205" />
+    <state width="1322" height="241" key="GridCell.Tab.1.bottom" timestamp="1630866715177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="241" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630828774098" />
-    <state width="1322" height="241" key="GridCell.Tab.1.center" timestamp="1630828774098">
+    <state width="1322" height="241" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630866715177" />
+    <state width="1322" height="241" key="GridCell.Tab.1.center" timestamp="1630866715177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="241" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630828774098" />
-    <state width="1322" height="241" key="GridCell.Tab.1.left" timestamp="1630828774098">
+    <state width="1322" height="241" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630866715177" />
+    <state width="1322" height="241" key="GridCell.Tab.1.left" timestamp="1630866715177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="241" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630828774098" />
-    <state width="1322" height="241" key="GridCell.Tab.1.right" timestamp="1630828774098">
+    <state width="1322" height="241" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630866715177" />
+    <state width="1322" height="241" key="GridCell.Tab.1.right" timestamp="1630866715177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="241" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630828774098" />
+    <state width="1322" height="241" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630866715177" />
     <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass" timestamp="1627041204265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -485,6 +480,21 @@
           <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/HttpSession.java</url>
           <line>26</line>
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/FtpHelper.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/FtpHelper.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/tests/RegistrationTests.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
