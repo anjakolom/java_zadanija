@@ -107,6 +107,7 @@
       <recent name="ru.pakage1" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.pakage1.appmanager" />
       <recent name="ru.package1.appmanager" />
       <recent name="ru.package1" />
     </key>
@@ -122,23 +123,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactAddGroup" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.package1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.package1.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.package1.test.ContactAddGroup" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,21 +256,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.pakage1.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.RegistrationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ContactDataGenerator" />
-      <item itemvalue="TestNG.ContactAddGroup" />
       <item itemvalue="TestNG.ContactDeleteGroup" />
       <item itemvalue="TestNG.LoginTests" />
       <item itemvalue="TestNG.LoginTests.testLogin" />
       <item itemvalue="TestNG.LoginTests (1)" />
+      <item itemvalue="TestNG.RegistrationTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.RegistrationTests" />
         <item itemvalue="TestNG.LoginTests (1)" />
         <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.LoginTests" />
-        <item itemvalue="TestNG.LoginTests.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -358,22 +359,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630762131050" />
-    <state width="1322" height="99" key="GridCell.Tab.0.bottom" timestamp="1630829240375">
+    <state width="1322" height="221" key="GridCell.Tab.0.bottom" timestamp="1630831706471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="99" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630829240375" />
-    <state width="1322" height="99" key="GridCell.Tab.0.center" timestamp="1630829240375">
+    <state width="1322" height="221" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630831706471" />
+    <state width="1322" height="221" key="GridCell.Tab.0.center" timestamp="1630831706471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="99" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630829240375" />
-    <state width="1322" height="99" key="GridCell.Tab.0.left" timestamp="1630829240375">
+    <state width="1322" height="221" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630831706471" />
+    <state width="1322" height="221" key="GridCell.Tab.0.left" timestamp="1630831706471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="99" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630829240375" />
-    <state width="1322" height="99" key="GridCell.Tab.0.right" timestamp="1630829240375">
+    <state width="1322" height="221" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630831706471" />
+    <state width="1322" height="221" key="GridCell.Tab.0.right" timestamp="1630831706471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="99" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630829240375" />
+    <state width="1322" height="221" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630831706471" />
     <state width="1322" height="241" key="GridCell.Tab.1.bottom" timestamp="1630828774098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -484,11 +485,6 @@
           <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/HttpSession.java</url>
           <line>26</line>
           <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/ApplicationManager.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
