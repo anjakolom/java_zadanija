@@ -8,8 +8,10 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-beta-4'
     implementation 'it.ozimov:hamcrest:2.0.0'
     implementation 'org.apache.httpcomponents:httpclient:4.5.13'
-   // implementation 'de.unkrig.commons:commons-net:1.2.15'
     implementation 'commons-net:commons-net:3.4'
+    implementation 'org.subethamail:subethasmtp:3.1.7'
+    implementation 'de.mhus.ports:ports-javaxmail:7.1.0'
+    implementation 'ru.lanwen.verbalregex:java-verbal-expressions:1.8'
 
 }
 
