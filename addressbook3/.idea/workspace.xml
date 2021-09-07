@@ -346,6 +346,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="126" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1627162211488" />
+    <state x="319" y="132" key="#xdebugger.evaluate" timestamp="1630992280650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="319" y="132" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1630992280650" />
     <state x="431" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1629405473618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -354,38 +358,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630762131050" />
-    <state width="1322" height="182" key="GridCell.Tab.0.bottom" timestamp="1630906752029">
+    <state width="1322" height="175" key="GridCell.Tab.0.bottom" timestamp="1630992323610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630906752029" />
-    <state width="1322" height="182" key="GridCell.Tab.0.center" timestamp="1630906752029">
+    <state width="1322" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630992323610" />
+    <state width="1322" height="175" key="GridCell.Tab.0.center" timestamp="1630992323610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630906752029" />
-    <state width="1322" height="182" key="GridCell.Tab.0.left" timestamp="1630906752013">
+    <state width="1322" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630992323610" />
+    <state width="1322" height="175" key="GridCell.Tab.0.left" timestamp="1630992323610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630906752013" />
-    <state width="1322" height="182" key="GridCell.Tab.0.right" timestamp="1630906752029">
+    <state width="1322" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630992323610" />
+    <state width="1322" height="175" key="GridCell.Tab.0.right" timestamp="1630992323610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630906752029" />
-    <state width="1322" height="182" key="GridCell.Tab.1.bottom" timestamp="1630906752029">
+    <state width="1322" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630992323610" />
+    <state width="1322" height="188" key="GridCell.Tab.1.bottom" timestamp="1630992299909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630906752029" />
-    <state width="1322" height="182" key="GridCell.Tab.1.center" timestamp="1630906752029">
+    <state width="1322" height="188" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630992299909" />
+    <state width="1322" height="188" key="GridCell.Tab.1.center" timestamp="1630992299909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630906752029" />
-    <state width="1322" height="182" key="GridCell.Tab.1.left" timestamp="1630906752029">
+    <state width="1322" height="188" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630992299909" />
+    <state width="1322" height="188" key="GridCell.Tab.1.left" timestamp="1630992299909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630906752029" />
-    <state width="1322" height="182" key="GridCell.Tab.1.right" timestamp="1630906752029">
+    <state width="1322" height="188" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630992299909" />
+    <state width="1322" height="188" key="GridCell.Tab.1.right" timestamp="1630992299909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630906752029" />
+    <state width="1322" height="188" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630992299909" />
     <state x="420" y="41" width="577" height="620" key="RefactorJ.ExtractClass" timestamp="1627041204265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -470,31 +474,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/ru/package1/test/ContactDeleteGroup.java</url>
           <line>24</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/HttpSession.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/HttpSession.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/FtpHelper.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/FtpHelper.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/tests/RegistrationTests.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
