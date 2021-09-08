@@ -35,20 +35,20 @@ public class JamesHelper {
         write("verify " + name);
         String result = readUntil("exist");
         closeTelnetSession();
-        return result.trim().equals("user " + name + " exist");
+        return result.trim().equals("User " + name + " exist");
     }
 
     public void createUser(String name, String password) {
         initTelnetSession();
         write("adduser " + name + " " + password);
-        String result = readUntil("user " + name + " added");
+        String result = readUntil("User " + name + " added");
         closeTelnetSession();
     }
 
     public void deleteUser(String name, String password) {
         initTelnetSession();
         write("deluser " + name);
-        String result = readUntil("user " + name + " deleted");
+        String result = readUntil("User " + name + " deleted");
         closeTelnetSession();
     }
 
@@ -78,7 +78,7 @@ public class JamesHelper {
         readUntil("Password");
         write(password);
 
-        readUntil("Welcome" + login + ". Help for a list of commands");
+        readUntil("Welcome " + login + ". HELP for a list of commands");
     }
 
     private String readUntil(String pattern) {
@@ -135,18 +135,23 @@ public class JamesHelper {
 
     private Folder openInbox(String username, String password) throws MessagingException {
         store = mailSession.getStore("pop3");
-        store.connect(mailserver, username, password);
-        Folder folder = store.getDefaultFolder().getFolder("INBOX");
-        folder.open(Folder.READ_WRITE);
-        return folder;
+        if (doesUserExist(username)) {
+                store.connect(mailserver, username, password);
+            Folder folder = store.getDefaultFolder().getFolder("INBOX");
+            folder.open(Folder.READ_WRITE);
+            return folder;
+        } else {
+            System.out.println("Пользователь " + username + " не зарегистрирован!");
+            return  null;
+        }
 
     }
 
     public List<MailMessage> waitForMail(String username, String password, long timeout) throws MessagingException, IOException {
-        long start = System.currentTimeMillis();
-        while (System.currentTimeMillis() < start + timeout) {
-            List<MailMessage> allMail = getAllMail(username,password);
-            if (allMail.size() >= 0) {
+        long now = System.currentTimeMillis();
+        while (System.currentTimeMillis() < now + timeout) {
+            List<MailMessage> allMail = getAllMail(username, password);
+            if (allMail.size() > 0) {
                 return allMail;
             }
             try {

@@ -24,13 +24,17 @@ public class RegistrationTests extends TestBase{
         long now = System.currentTimeMillis();
         String user = String.format("user%s", now);
         String password = "password";
-        String email = String.format("user%s@localhost.localdomain", Long.toString(now));
+        String email = String.format("user%s@localhost", Long.toString(now));
 
         app.james().createUser(user, password);
 
         app.registration().start(user ,email);
+
+        //ѕолучение почты на встроенный в тесты почтовый сервер
         //List<MailMessage> mailMessages = app.mail().waitForMail(2, 100000);
-        List<MailMessage> mailMessages =app.james().waitForMail(user ,email, 60000);
+
+        //ѕолучение почты по протоколу Telnet
+        List<MailMessage> mailMessages =app.james().waitForMail(user ,password, 60000);
         String confirmationLink = findConfirmationLink(mailMessages, email);
         app.registration().finish(confirmationLink, password);
         Assert.assertTrue(app.newSession().login(user,password));
