@@ -40,6 +40,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -65,7 +72,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTests">
+  <component name="RunManager" selected="TestNG.GeoIpServiceTest.testMyIP">
     <configuration name="ChangePasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mantis-tests.test" />
       <extension name="coverage">
@@ -77,6 +84,41 @@
       <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.ChangePasswordTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeoIpServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="soup-sample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.pakage1.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.GeoIpServiceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeoIpServiceTest.testMyIP" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="soup-sample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.pakage1.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.GeoIpServiceTest" />
+      <option name="METHOD_NAME" value="testMyIP" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -102,6 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GeoIpServiceTest.testMyIP" />
+        <item itemvalue="TestNG.GeoIpServiceTest" />
         <item itemvalue="TestNG.RegistrationTests" />
         <item itemvalue="TestNG.ChangePasswordTest" />
       </list>
@@ -127,38 +171,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="72" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1631625385450" />
-    <state width="1322" height="234" key="GridCell.Tab.0.bottom" timestamp="1631629138149">
+    <state width="1322" height="234" key="GridCell.Tab.0.bottom" timestamp="1631699797486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631629138149" />
-    <state width="1322" height="234" key="GridCell.Tab.0.center" timestamp="1631629138149">
+    <state width="1322" height="234" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
+    <state width="1322" height="234" key="GridCell.Tab.0.center" timestamp="1631699797486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631629138149" />
-    <state width="1322" height="234" key="GridCell.Tab.0.left" timestamp="1631629138149">
+    <state width="1322" height="234" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
+    <state width="1322" height="234" key="GridCell.Tab.0.left" timestamp="1631699797486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631629138149" />
-    <state width="1322" height="234" key="GridCell.Tab.0.right" timestamp="1631629138149">
+    <state width="1322" height="234" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
+    <state width="1322" height="234" key="GridCell.Tab.0.right" timestamp="1631699797486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631629138149" />
-    <state width="1322" height="234" key="GridCell.Tab.1.bottom" timestamp="1631629138149">
+    <state width="1322" height="234" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
+    <state width="1322" height="234" key="GridCell.Tab.1.bottom" timestamp="1631699797486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631629138149" />
-    <state width="1322" height="234" key="GridCell.Tab.1.center" timestamp="1631629138149">
+    <state width="1322" height="234" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
+    <state width="1322" height="234" key="GridCell.Tab.1.center" timestamp="1631699797486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1631629138149" />
-    <state width="1322" height="234" key="GridCell.Tab.1.left" timestamp="1631629138149">
+    <state width="1322" height="234" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
+    <state width="1322" height="234" key="GridCell.Tab.1.left" timestamp="1631699797486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1631629138149" />
-    <state width="1322" height="234" key="GridCell.Tab.1.right" timestamp="1631629138149">
+    <state width="1322" height="234" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
+    <state width="1322" height="234" key="GridCell.Tab.1.right" timestamp="1631699797486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1631629138149" />
+    <state width="1322" height="234" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
     <state x="99" y="0" key="SettingsEditor" timestamp="1631625550714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

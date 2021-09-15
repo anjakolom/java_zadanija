@@ -4,6 +4,7 @@ import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import ru.pakage1.appmanager.ApplicationManager;
+//import sun.plugin2.util.BrowserType;
 
 public class TestBase {
 
