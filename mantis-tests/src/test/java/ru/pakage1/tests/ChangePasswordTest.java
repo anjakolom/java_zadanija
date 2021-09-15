@@ -31,30 +31,30 @@ public class ChangePasswordTest extends TestBase {
         Assert.assertTrue(app.newSession().login(user, password));
         app.james().drainEmail(user,password);
 
-        System.out.println("Заходим под админом, отправляем письмо");
-        //Через интерфейс
+        System.out.println("");
+        //пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
        // Assert.assertTrue(app.newSession().login("administrator", "root"));
         app.getDriver().get("http://localhost/mantisbt-2.25.2/login_page.php");
         app.getDriver().findElement(By.id("username")).clear();
         app.getDriver().findElement(By.id("username")).sendKeys("administrator");
-        //app.getDriver().findElement(By.xpath("//input[@value='Вход']")).click();
+        //app.getDriver().findElement(By.xpath("//input[@value='пїЅпїЅпїЅпїЅ']")).click();
         app.getDriver().findElement(By.cssSelector("input[class='width-40 pull-right btn btn-success btn-inverse bigger-110']")).click();
         app.getDriver().findElement(By.id("password")).clear();
         app.getDriver().findElement(By.id("password")).sendKeys("root");
         app.getDriver().findElement(By.cssSelector("input[class='width-40 pull-right btn btn-success btn-inverse bigger-110']")).click();
-        //app.getDriver().findElement(By.xpath("//input[@value='Вход']")).click();
+        //app.getDriver().findElement(By.xpath("//input[@value='пїЅпїЅпїЅпїЅ']")).click();
         //app.getDriver().findElement(By.cssSelector("i.fa.fa-gears.menu-icon")).click();
         //xpath=//div[@id='sidebar']/ul/li[6]/a/i
         app.getDriver().findElement(By.xpath("//div[@id='sidebar']/ul/li[6]/a/i")).click();
 
-        //app.getDriver().findElement(By.linkText("Управление пользователями")).click();
+        //app.getDriver().findElement(By.linkText("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ")).click();
         //xpath=//a[contains(@href, '/mantisbt-2.25.2/manage_user_page.php')]
         app.getDriver().findElement(By.xpath("//a[contains(@href, '/mantisbt-2.25.2/manage_user_page.php')]")).click();
         app.getDriver().findElement(By.linkText("user8")).click();
         //???app.getDriver().findElement(By.xpath("xpath=//form[@id='manage-user-reset-form']/fieldset/span/input")).click();
         app.getDriver().findElement(By.cssSelector("span.user-info")).click();
-        app.getDriver().findElement(By.linkText("Выход")).click();
-        //Читаем почту после получения ссылки
+        app.getDriver().findElement(By.linkText("пїЅпїЅпїЅпїЅпїЅ")).click();
+        //пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         mailMessages = app.james().waitForMail(user, password, 60000);
         confirmationLink = findConfirmationLink(mailMessages, email);
         app.registration().finish(confirmationLink, password_new);

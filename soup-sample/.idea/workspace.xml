@@ -65,6 +65,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -72,24 +73,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.GeoIpServiceTest.testMyIP">
-    <configuration name="ChangePasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.pakage1.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.ChangePasswordTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SoupTests.testGetProjects">
     <configuration name="GeoIpServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="soup-sample.test" />
       <extension name="coverage">
@@ -107,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeoIpServiceTest.testMyIP" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GeoIpServiceTest.testMyIP (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="soup-sample.test" />
       <extension name="coverage">
         <pattern>
@@ -119,13 +103,14 @@
       <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.GeoIpServiceTest" />
       <option name="METHOD_NAME" value="testMyIP" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SoupTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mantis-tests.test" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +119,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.RegistrationTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.SoupTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoupTests.testCreateIssue" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.pakage1.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.SoupTests" />
+      <option name="METHOD_NAME" value="testCreateIssue" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoupTests.testGetProjects" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.pakage1.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.SoupTests" />
+      <option name="METHOD_NAME" value="testGetProjects" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -144,10 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GeoIpServiceTest.testMyIP" />
+        <item itemvalue="TestNG.SoupTests.testGetProjects" />
+        <item itemvalue="TestNG.SoupTests.testCreateIssue" />
+        <item itemvalue="TestNG.SoupTests" />
+        <item itemvalue="TestNG.GeoIpServiceTest.testMyIP (1)" />
         <item itemvalue="TestNG.GeoIpServiceTest" />
-        <item itemvalue="TestNG.RegistrationTests" />
-        <item itemvalue="TestNG.ChangePasswordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +185,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1631737010675">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1631737010675" />
     <state x="438" y="66" key="#xdebugger.evaluate" timestamp="1631626683927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -171,46 +197,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="72" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1631625385450" />
-    <state width="1322" height="234" key="GridCell.Tab.0.bottom" timestamp="1631699797486">
+    <state width="1322" height="234" key="GridCell.Tab.0.bottom" timestamp="1631737825141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
-    <state width="1322" height="234" key="GridCell.Tab.0.center" timestamp="1631699797486">
+    <state width="1322" height="234" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
+    <state width="1322" height="234" key="GridCell.Tab.0.center" timestamp="1631737825141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
-    <state width="1322" height="234" key="GridCell.Tab.0.left" timestamp="1631699797486">
+    <state width="1322" height="234" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
+    <state width="1322" height="234" key="GridCell.Tab.0.left" timestamp="1631737825141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
-    <state width="1322" height="234" key="GridCell.Tab.0.right" timestamp="1631699797486">
+    <state width="1322" height="234" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
+    <state width="1322" height="234" key="GridCell.Tab.0.right" timestamp="1631737825141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
-    <state width="1322" height="234" key="GridCell.Tab.1.bottom" timestamp="1631699797486">
+    <state width="1322" height="234" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
+    <state width="1322" height="234" key="GridCell.Tab.1.bottom" timestamp="1631737825141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
-    <state width="1322" height="234" key="GridCell.Tab.1.center" timestamp="1631699797486">
+    <state width="1322" height="234" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
+    <state width="1322" height="234" key="GridCell.Tab.1.center" timestamp="1631737825141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
-    <state width="1322" height="234" key="GridCell.Tab.1.left" timestamp="1631699797486">
+    <state width="1322" height="234" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
+    <state width="1322" height="234" key="GridCell.Tab.1.left" timestamp="1631737825141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
-    <state width="1322" height="234" key="GridCell.Tab.1.right" timestamp="1631699797486">
+    <state width="1322" height="234" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
+    <state width="1322" height="234" key="GridCell.Tab.1.right" timestamp="1631737825141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1631699797486" />
-    <state x="99" y="0" key="SettingsEditor" timestamp="1631625550714">
+    <state width="1322" height="234" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
+    <state x="99" y="0" key="SettingsEditor" timestamp="1631727778318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="99" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1631625550714" />
+    <state x="99" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1631727778318" />
     <state x="229" y="95" width="908" height="633" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1631627690582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="229" y="95" width="908" height="633" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1631627690582" />
+    <state x="413" y="124" key="extract.method.dialog" timestamp="1631735781767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="124" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1631735781767" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -234,6 +264,11 @@
           <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/JamesHelper.java</url>
           <line>37</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/tests/SoupTests.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
