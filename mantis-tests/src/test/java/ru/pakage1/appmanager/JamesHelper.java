@@ -1,11 +1,9 @@
 package ru.pakage1.appmanager;
 
 import org.apache.commons.net.telnet.TelnetClient;
-import org.subethamail.wiser.WiserMessage;
 import ru.pakage1.model.MailMessage;
 
 import javax.mail.*;
-import javax.mail.internet.MimeMessage;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;

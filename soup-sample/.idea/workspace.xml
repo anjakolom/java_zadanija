@@ -14,6 +14,9 @@
     <projectState path="$PROJECT_DIR$/../mantis-tests">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/../sandbox">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
@@ -66,31 +69,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sandbox/build.gradle" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.31944445" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.SoupTests.testGetProjects">
-    <configuration name="GeoIpServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="soup-sample.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.pakage1.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.GeoIpServiceTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SoupTests">
     <configuration name="GeoIpServiceTest.testMyIP (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="soup-sample.test" />
       <extension name="coverage">
@@ -163,13 +149,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SoupTests.testisIssueOpen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.pakage1.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.SoupTests" />
+      <option name="METHOD_NAME" value="testisIssueOpen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SoupTests.testGetProjects" />
-        <item itemvalue="TestNG.SoupTests.testCreateIssue" />
         <item itemvalue="TestNG.SoupTests" />
+        <item itemvalue="TestNG.SoupTests.testCreateIssue" />
+        <item itemvalue="TestNG.SoupTests.testisIssueOpen" />
+        <item itemvalue="TestNG.SoupTests.testGetProjects" />
         <item itemvalue="TestNG.GeoIpServiceTest.testMyIP (1)" />
-        <item itemvalue="TestNG.GeoIpServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,46 +197,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1631626683927" />
-    <state x="484" y="72" key="FileChooserDialogImpl" timestamp="1631625385450">
+    <state x="484" y="72" key="FileChooserDialogImpl" timestamp="1631774630848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="484" y="72" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1631625385450" />
-    <state width="1322" height="234" key="GridCell.Tab.0.bottom" timestamp="1631737825141">
+    <state x="484" y="72" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1631774630848" />
+    <state width="1322" height="196" key="GridCell.Tab.0.bottom" timestamp="1631778180764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
-    <state width="1322" height="234" key="GridCell.Tab.0.center" timestamp="1631737825141">
+    <state width="1322" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631778180764" />
+    <state width="1322" height="196" key="GridCell.Tab.0.center" timestamp="1631778180764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
-    <state width="1322" height="234" key="GridCell.Tab.0.left" timestamp="1631737825141">
+    <state width="1322" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631778180764" />
+    <state width="1322" height="196" key="GridCell.Tab.0.left" timestamp="1631778180764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
-    <state width="1322" height="234" key="GridCell.Tab.0.right" timestamp="1631737825141">
+    <state width="1322" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631778180764" />
+    <state width="1322" height="196" key="GridCell.Tab.0.right" timestamp="1631778180764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
-    <state width="1322" height="234" key="GridCell.Tab.1.bottom" timestamp="1631737825141">
+    <state width="1322" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631778180764" />
+    <state width="1322" height="234" key="GridCell.Tab.1.bottom" timestamp="1631778036889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
-    <state width="1322" height="234" key="GridCell.Tab.1.center" timestamp="1631737825141">
+    <state width="1322" height="234" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631778036889" />
+    <state width="1322" height="234" key="GridCell.Tab.1.center" timestamp="1631778036889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
-    <state width="1322" height="234" key="GridCell.Tab.1.left" timestamp="1631737825141">
+    <state width="1322" height="234" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1631778036889" />
+    <state width="1322" height="234" key="GridCell.Tab.1.left" timestamp="1631778036889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
-    <state width="1322" height="234" key="GridCell.Tab.1.right" timestamp="1631737825141">
+    <state width="1322" height="234" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1631778036889" />
+    <state width="1322" height="234" key="GridCell.Tab.1.right" timestamp="1631778036889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1631737825141" />
-    <state x="99" y="0" key="SettingsEditor" timestamp="1631727778318">
+    <state width="1322" height="234" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1631778036889" />
+    <state x="99" y="0" key="SettingsEditor" timestamp="1631774635968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="99" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1631727778318" />
+    <state x="99" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1631774635968" />
     <state x="229" y="95" width="908" height="633" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1631627690582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -252,23 +256,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/JamesHelper.java</url>
-          <line>152</line>
+          <line>150</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/JamesHelper.java</url>
-          <line>61</line>
+          <line>59</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/JamesHelper.java</url>
-          <line>37</line>
+          <line>35</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/tests/SoupTests.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/SoupHelper.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
