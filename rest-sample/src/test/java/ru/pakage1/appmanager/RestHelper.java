@@ -14,11 +14,10 @@ import java.io.IOException;
 import java.util.Set;
 
 public class RestHelper {
-    private  ApplicationManager app;
+    private ApplicationManager app;
 
     public RestHelper(ApplicationManager app) {
         this.app = app;
-
     }
 
     public void skipIfNotFixed(int issueId) throws IOException {
@@ -34,14 +33,13 @@ public class RestHelper {
 
         JsonElement parsed = new JsonParser().parse(json);
         JsonElement issuesJson = parsed.getAsJsonObject().get("issues");
-        Set<Issue> issues_set = new Gson().fromJson( issuesJson, new TypeToken<Set<Issue>>(){}.getType());
+        Set<Issue> issues_set = new Gson().fromJson(issuesJson, new TypeToken<Set<Issue>>() {
+        }.getType());
         Issue issue = issues_set.iterator().next();
-        System.out.println(issue.toString());
         String stateName = issue.getState_name();
-        System.out.println(stateName);
 
-        if ((stateName.equals("Closed"))||(stateName.equals("Resolved"))||(stateName.equals("Deleted"))) {
-             resolution = false;
+        if ((stateName.equals("Closed")) || (stateName.equals("Resolved")) || (stateName.equals("Deleted"))) {
+            resolution = false;
         }
         return resolution;
     }
@@ -61,10 +59,11 @@ public class RestHelper {
                 .returnContent().asString();
         JsonElement parsed = new JsonParser().parse(json);
         JsonElement issues = parsed.getAsJsonObject().get("issues");
-        return new Gson().fromJson(issues, new TypeToken<Set<Issue>>(){}.getType());
+        return new Gson().fromJson(issues, new TypeToken<Set<Issue>>() {
+        }.getType());
     }
 
-    public Executor getExecutor(){
+    public Executor getExecutor() {
         return Executor.newInstance().auth("288f44776e7bec4bf44fdfeb1e646490", "");
     }
 }

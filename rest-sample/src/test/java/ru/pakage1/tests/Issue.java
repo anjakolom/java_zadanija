@@ -5,6 +5,8 @@ import java.util.Objects;
 public class Issue {
     private int id;
     private String subject;
+    private String description;
+    private String state_name;
 
     @Override
     public boolean equals(Object o) {
@@ -22,8 +24,6 @@ public class Issue {
         return Objects.hash(id, subject, description, state_name);
     }
 
-    private String description;
-
     public String getState_name() {
         return state_name;
     }
@@ -33,8 +33,6 @@ public class Issue {
         return this;
     }
 
-    private String state_name;
-
     public int getId() {
         return id;
     }
@@ -43,7 +41,6 @@ public class Issue {
         this.id = id;
         return this;
     }
-
 
     public String getSubject() {
         return subject;
