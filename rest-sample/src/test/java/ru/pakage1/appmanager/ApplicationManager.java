@@ -19,6 +19,7 @@ public class ApplicationManager {
     private final Properties properties;
     WebDriver wd;
     private String browser;
+    private RestHelper restHelper;
 
 
     public ApplicationManager(String browser) {
@@ -31,7 +32,7 @@ public class ApplicationManager {
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
 
-        if (browser.equals(BrowserType.FIREFOX)) {
+     /*   if (browser.equals(BrowserType.FIREFOX)) {
             wd = new FirefoxDriver();
         } else if (browser.equals(BrowserType.CHROME)) {
             wd = new ChromeDriver();
@@ -52,9 +53,15 @@ public class ApplicationManager {
             return true;
         } catch (NoSuchElementException e) {
             return false;
-        }
+        }*/
     }
 
+    public RestHelper rest() {
+        if (restHelper == null) {
+            restHelper = new RestHelper(this);
+        }
+        return restHelper;
+    }
 
 
 }
