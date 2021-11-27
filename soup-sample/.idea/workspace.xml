@@ -3,15 +3,51 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3938e320-be63-4208-a74c-bba8602da082" name="Default Changelist" comment="" />
+    <list default="true" id="3938e320-be63-4208-a74c-bba8602da082" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../addressbook3/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook3/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/out/test/classes/ru/pakage1/tests/ChangePasswordTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../../../../18_gudoshnikova/java_pft/mantis-tests">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../../../18_gudoshnikova/java_pft/mantis-tests_gud">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../addressbook3">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/../mantis-tests">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../rest-sample">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/../sandbox">
@@ -20,21 +56,22 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/../../miropolis-tests">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/../../miropolis-tests">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="soup-sample" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="soup-sample" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="miropolis-tests" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -69,35 +106,69 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sandbox/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../miropolis-tests/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.31944445" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.SoupTests">
-    <configuration name="GeoIpServiceTest.testMyIP (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="soup-sample.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.pakage1.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.GeoIpServiceTest" />
-      <option name="METHOD_NAME" value="testMyIP" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.pakage1.tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.pakage1.appmanager" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java_for_test\githab\GitHub\miropolis-tests\src\test\resources" />
+      <recent name="C:\Java_for_test\githab\GitHub\java_zadanija\addressbook3\src\test\resources" />
+      <recent name="C:\Java_for_test\githab\GitHub\java_zadanija\mantis-tests\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Java_for_test/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml">
+    <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../addressbook3" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.package1.test.GroupCreationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Java_for_test/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook3.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/../addressbook3/src/test/resources/testing-contacts.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoupTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis-tests.test" />
+    <configuration name="C:/Java_for_test/githab/GitHub/miropolis-tests/src/test/resources/testing-contacts.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="miropolis-tests.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/../../miropolis-tests/src/test/resources/testing-contacts.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="miropolis-tests.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.pakage1.tests.*" />
@@ -105,7 +176,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.SoupTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.LoginTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -113,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoupTests.testCreateIssue" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis-tests.test" />
+    <configuration name="LoginTests.LoginTest6" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="miropolis-tests.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.pakage1.tests.*" />
@@ -122,8 +193,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.SoupTests" />
-      <option name="METHOD_NAME" value="testCreateIssue" />
+      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.LoginTests" />
+      <option name="METHOD_NAME" value="LoginTest6" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,49 +202,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoupTests.testGetProjects" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.pakage1.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.SoupTests" />
-      <option name="METHOD_NAME" value="testGetProjects" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoupTests.testisIssueOpen" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.pakage1.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.pakage1.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.pakage1.tests.SoupTests" />
-      <option name="METHOD_NAME" value="testisIssueOpen" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Java_for_test/githab/GitHub/miropolis-tests/src/test/resources/testing-contacts.xml" />
+      <item itemvalue="TestNG.LoginTests" />
+      <item itemvalue="TestNG.LoginTests.LoginTest6" />
+      <item itemvalue="Gradle.GroupCreationTests" />
+      <item itemvalue="TestNG.C:/Java_for_test/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SoupTests" />
-        <item itemvalue="TestNG.SoupTests.testCreateIssue" />
-        <item itemvalue="TestNG.SoupTests.testisIssueOpen" />
-        <item itemvalue="TestNG.SoupTests.testGetProjects" />
-        <item itemvalue="TestNG.GeoIpServiceTest.testMyIP (1)" />
+        <item itemvalue="TestNG.C:/Java_for_test/githab/GitHub/java_zadanija/addressbook3/src/test/resources/testing-contacts.xml" />
+        <item itemvalue="Gradle.GroupCreationTests" />
+        <item itemvalue="TestNG.C:/Java_for_test/githab/GitHub/miropolis-tests/src/test/resources/testing-contacts.xml" />
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.LoginTests.LoginTest6" />
       </list>
     </recent_temporary>
   </component>
@@ -188,55 +230,79 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1631737010675">
+    <state x="167" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637156879387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1631737010675" />
+    <state x="167" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1637156879387" />
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1631862266014">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1631862266014" />
     <state x="438" y="66" key="#xdebugger.evaluate" timestamp="1631626683927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1631626683927" />
-    <state x="484" y="72" key="FileChooserDialogImpl" timestamp="1631774630848">
+    <state x="430" y="197" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1637153390035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="484" y="72" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1631774630848" />
-    <state width="1322" height="196" key="GridCell.Tab.0.bottom" timestamp="1631778180764">
+    <state x="430" y="197" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1637153390035" />
+    <state x="484" y="72" key="FileChooserDialogImpl" timestamp="1637076443365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631778180764" />
-    <state width="1322" height="196" key="GridCell.Tab.0.center" timestamp="1631778180764">
+    <state x="484" y="72" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1637076443365" />
+    <state width="1322" height="274" key="GridCell.Tab.0.bottom" timestamp="1638014898774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631778180764" />
-    <state width="1322" height="196" key="GridCell.Tab.0.left" timestamp="1631778180764">
+    <state width="1322" height="274" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1638014898774" />
+    <state width="1322" height="274" key="GridCell.Tab.0.center" timestamp="1638014898759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631778180764" />
-    <state width="1322" height="196" key="GridCell.Tab.0.right" timestamp="1631778180764">
+    <state width="1322" height="274" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1638014898759" />
+    <state width="1322" height="274" key="GridCell.Tab.0.left" timestamp="1638014898759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631778180764" />
-    <state width="1322" height="234" key="GridCell.Tab.1.bottom" timestamp="1631778036889">
+    <state width="1322" height="274" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1638014898759" />
+    <state width="1322" height="274" key="GridCell.Tab.0.right" timestamp="1638014898759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631778036889" />
-    <state width="1322" height="234" key="GridCell.Tab.1.center" timestamp="1631778036889">
+    <state width="1322" height="274" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1638014898759" />
+    <state width="1322" height="270" key="GridCell.Tab.1.bottom" timestamp="1637247404274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1631778036889" />
-    <state width="1322" height="234" key="GridCell.Tab.1.left" timestamp="1631778036889">
+    <state width="1322" height="270" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1637247404274" />
+    <state width="1322" height="270" key="GridCell.Tab.1.center" timestamp="1637247404274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1631778036889" />
-    <state width="1322" height="234" key="GridCell.Tab.1.right" timestamp="1631778036889">
+    <state width="1322" height="270" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1637247404274" />
+    <state width="1322" height="270" key="GridCell.Tab.1.left" timestamp="1637247404274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="234" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1631778036889" />
-    <state x="99" y="0" key="SettingsEditor" timestamp="1631774635968">
+    <state width="1322" height="270" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1637247404274" />
+    <state width="1322" height="270" key="GridCell.Tab.1.right" timestamp="1637247404274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="99" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1631774635968" />
+    <state width="1322" height="270" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1637247404274" />
+    <state x="263" y="106" key="IDE.errors.dialog" timestamp="1635923219498">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="106" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1635923219498" />
+    <state x="89" y="0" key="SettingsEditor" timestamp="1637171656585">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="89" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1637171656585" />
     <state x="229" y="95" width="908" height="633" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1631627690582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -250,29 +316,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/tests/RegistrationTests.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/JamesHelper.java</url>
           <line>150</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/JamesHelper.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/JamesHelper.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/ru/pakage1/appmanager/SoupHelper.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/../rest-sample/src/test/java/ru/pakage1/tests/RestTests.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
