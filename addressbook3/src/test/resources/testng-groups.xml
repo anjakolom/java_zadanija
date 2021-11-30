@@ -4,7 +4,8 @@
 <test name="Groups" >
     <classes>
         <class name="ru.package1.test.GroupCreationTests" />
-        
+        <class name="ru.package1.test.GroupModificationTests" />
+        <class name="ru.package1.test.GroupDeletionTests" />
     </classes>
 </test>
 </suite>
